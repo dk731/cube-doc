@@ -23,6 +23,14 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
-html[data-theme='dark'] .docusaurus-highlight-code-line {
+html[data-theme="dark"] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+.token-line {
+  transition: 0.5s linear all;
+}
+
+.token-line.active_code_line {
+  background: rgb(235, 94, 40);
 }
