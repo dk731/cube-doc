@@ -32,5 +32,14 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
 }
 
 .token-line.active_code_line {
-  background: rgb(235, 94, 40);
+  background: rgba(138, 137, 192, 0.6);
+}
+
+iframe {
+  width: 70%;
+  aspect-ratio: 1.5;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  border: 0px;
 }
