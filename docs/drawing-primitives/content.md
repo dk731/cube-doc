@@ -10,7 +10,7 @@ As graphics generation is very simillar to contructor assebmly where you have to
 
 - [Line](line-primitive)
 
-- Circle
+- [Circle](circle-primitive)
 
 - Sphere
 

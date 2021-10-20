@@ -15,7 +15,7 @@ def point(vector)
 
 ```python title="Complete definition"
 def point(x: float | int, y: float | int, z: float | int) -> None
-def point(vector: list[float | int] | tuple[float | int]) -> None:
+def point(vector: list[float | int] | tuple[float | int]) -> None
 ```
 
 |  Property  |          Description          |               Accepted values                |
@@ -32,7 +32,7 @@ def point(vector: list[float | int] | tuple[float | int]) -> None:
 
 ```python
 from ledcd import CubeDrawer
-from random import random
+from random import random, randint
 from time import sleep
 
 drawer = CubeDrawer.get_obj()
@@ -40,7 +40,7 @@ drawer.draw_immediate = True
 
 while True:
     drawer.set_color(random(), random(), random()) # set radnom brush colro
-    drawer.point(random() * 15, random() * 15, random() * 15) # draw point at radom location [0-15]
+    drawer.point(randint(0, 15), randint(0, 15), randint(0, 15)) # draw point at radom location [0-15]
 
     sleep(1)
 ```
@@ -66,7 +66,9 @@ while True:
               tmp.classList.remove("active_code_line")
 
           document.cur_state = e.data;
-          document.querySelectorAll("#code_block_hidden ~ div .token-line")[document.ind_line_map[document.cur_state]].classList.add("active_code_line")
+          const tmp1 = document.querySelectorAll("#code_block_hidden ~ div .token-line")[document.ind_line_map[document.cur_state]];
+          if (tmp1)
+            tmp1.classList.add("active_code_line")
           
       }, false);
 
@@ -78,4 +80,3 @@ while True:
 <iframe src="http://127.0.0.1:5500/public/examples/point/index.html">
   <p>Your browser does not support iframes.</p>
 </iframe>
-```

@@ -10,7 +10,7 @@ Filles space between 2 points with some offset(line width).
 
 ```python title="Simplified definition"
 def line(x1, y1, z1, x2, y2, z2, line_width = 0.5)
-def line(vec1, vec2, line_width = 0.5: )
+def line(vec1, vec2, line_width = 0.5)
 ```
 
 ```python title="Complete definition"
@@ -26,10 +26,11 @@ def line(vec1: list[float | int] | tuple[float | int], vec2: list[float | int] |
 |           **x2**            |           X - component of 2nd point           |               _**any number**_               |
 |           **y2**            |           Y - component of 2nd point           |               _**any number**_               |
 |           **z2**            |           Z - component of 2nd point           |               _**any number**_               |
-| **line_width** _(optional)_ | Width of the line in world space. Default: 0.5 |         _**none**_/_**any number**_          |
 |                             |                                                |                                              |
 |          **vec1**           |  Structure with x, y, z values for 1st point   | _**tuple or list of numbers with length 3**_ |
 |          **vec2**           |  Structure with x, y, z values for 2nd point   | _**tuple or list of numbers with length 3**_ |
+|                             |                                                |                                              |
+| **line_width** _(optional)_ | Width of the line in world space. Default: 0.5 |         _**none**_/_**any number**_          |
 
 ## Example:
 
@@ -46,17 +47,17 @@ drawer.draw_immediate = True
 while True:
     drawer.clear()
 
-    drawer.set_color()
-    drawer.line(0, 0, 0, )
+    drawer.set_color(0.353, 0.859, 1.000)
+    drawer.line(0, 0, 0, 0, 9, 0)
 
-    drawer.set_color()
-    drawer.line(0, 0, 0, )
+    drawer.set_color(125, 29, 63)
+    drawer.line((15, 0, 15), (15, 0, 8))
 
-    drawer.set_color()
-    drawer.line(0, 0, 0, )
+    drawer.set_color(0.894, 0.941, 0.816)
+    drawer.line([0, 0, 15], [15, 15, 0])
 
-    drawer.set_color()
-    drawer.line(0, 0, 0, )
+    drawer.set_color(27, 44, 193)
+    drawer.line(0, 15, 0, 15, 15, 15)
 ```
 
 <script>
@@ -85,7 +86,9 @@ while True:
               tmp.classList.remove("active_code_line")
 
           document.cur_state = e.data;
-          document.querySelectorAll("#code_block_hidden ~ div .token-line")[document.ind_line_map[document.cur_state]].classList.add("active_code_line")
+          const tmp1 = document.querySelectorAll("#code_block_hidden ~ div .token-line")[document.ind_line_map[document.cur_state]];
+          if (tmp1)
+            tmp1.classList.add("active_code_line")
           
       }, false);
 
@@ -97,4 +100,3 @@ while True:
 <iframe src="http://127.0.0.1:5500/public/examples/line/index.html">
   <p>Your browser does not support iframes.</p>
 </iframe>
-```
