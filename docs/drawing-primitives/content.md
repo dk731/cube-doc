@@ -12,14 +12,10 @@ As graphics generation is very simillar to contructor assebmly where you have to
 
 - [Circle](circle-primitive)
 
-- Sphere
+- [Sphere](sphere-primitive)
 
 Additional:
 
-- 3 Indeced Polygon (Triangle)
+- [3 Indeced Polygon (Triangle)](poly-primitive)
 
-- 4 Indeced Pyramid (Triangle pyramid)
-
-- Cylinder
-
-- Ellipsoids (2D/3D)
+- [4 Indeced Pyramid (Triangle pyramid)](pyramid-primitive)

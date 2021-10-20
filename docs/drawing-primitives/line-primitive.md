@@ -9,13 +9,13 @@ Filles space between 2 points with some offset(line width).
 ## Definition:
 
 ```python title="Simplified definition"
-def line(x1, y1, z1, x2, y2, z2, line_width = 0.5)
-def line(vec1, vec2, line_width = 0.5)
+def line(x1, y1, z1, x2, y2, z2, line_width=0.5)
+def line(vec1, vec2, line_width=0.5)
 ```
 
 ```python title="Complete definition"
-def line(x1: float | int, y1: float | int, z1: float | int, x2: float | int, y2: float | int, z2: float | int, line_width = 0.5: float | int) -> None
-def line(vec1: list[float | int] | tuple[float | int], vec2: list[float | int] | tuple[float | int], line_width = 0.5: float | int) -> None
+def line(x1: float | int, y1: float | int, z1: float | int, x2: float | int, y2: float | int, z2: float | int, line_width=0.5: float | int) -> None
+def line(vec1: list[float | int] | tuple[float | int], vec2: list[float | int] | tuple[float | int], line_width=0.5: float | int) -> None
 ```
 
 |          Property           |                  Description                   |               Accepted values                |
@@ -38,8 +38,6 @@ def line(vec1: list[float | int] | tuple[float | int], vec2: list[float | int] |
 
 ```python
 from ledcd import CubeDrawer
-from random import random
-from time import sleep
 
 drawer = CubeDrawer.get_obj()
 drawer.draw_immediate = True
@@ -47,17 +45,20 @@ drawer.draw_immediate = True
 while True:
     drawer.clear()
 
-    drawer.set_color(0.353, 0.859, 1.000)
+    drawer.set_color(129, 240, 229)
     drawer.line(0, 0, 0, 0, 9, 0)
 
-    drawer.set_color(125, 29, 63)
+    drawer.set_color(0.588, 0.008, 0.0)
     drawer.line((15, 0, 15), (15, 0, 8))
 
-    drawer.set_color(0.894, 0.941, 0.816)
-    drawer.line([0, 0, 15], [15, 15, 0])
+    drawer.set_color(247, 236, 89)
+    drawer.line([0, 0, 15], [15, 15, 0], 1.5)
 
-    drawer.set_color(27, 44, 193)
+    drawer.set_color(1.0, 0.533, 0.863)
     drawer.line(0, 15, 0, 15, 15, 15)
+
+    drawer.set_color(111, 45, 189)
+    drawer.line(12, 5, 0, 12, 5, 15, 2.5)
 ```
 
 <script>
@@ -66,15 +67,18 @@ while True:
       document["cur_state"] = -1;
 
       document["ind_line_map"] = new Object();
-      document.ind_line_map[0] = 8;
-      document.ind_line_map[1] = 10;
-      document.ind_line_map[2] = 11;
-      document.ind_line_map[3] = 13;
-      document.ind_line_map[4] = 14;
-      document.ind_line_map[5] = 16;
-      document.ind_line_map[6] = 17;
-      document.ind_line_map[7] = 19;
-      document.ind_line_map[8] = 20;
+      document.ind_line_map[0] = 6;
+      document.ind_line_map[1] = 8;
+      document.ind_line_map[2] = 9;
+      document.ind_line_map[3] = 11;
+      document.ind_line_map[4] = 12;
+      document.ind_line_map[5] = 14;
+      document.ind_line_map[6] = 15;
+      document.ind_line_map[7] = 17;
+      document.ind_line_map[8] = 18;
+      document.ind_line_map[9] = 20;
+      document.ind_line_map[10] = 21;
+      document.ind_line_map[11] = 6;
 
       window.addEventListener("message", function (e) {
           if (e.data == document.cur_state || e.data < 0)
