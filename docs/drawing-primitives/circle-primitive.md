@@ -77,13 +77,13 @@ while True:
     drawer.circle(4, 4, 0, 3)
 
     drawer.set_color(110, 68, 255)
-    drawer.circle(6, 12, 0, 4, 2, 0.25)
+    drawer.circle(6, 12, 0, 4, 2, 1)
 
     drawer.set_color(0.592, 0.8, 0.016)
-    drawer.circle(12, 6, 0, 2, 4, 0.25)
+    drawer.circle(12, 6, 0, 2, 4, 1)
 
     drawer.set_color(255, 0, 84)
-    drawer.circle(7.5, 7.5, 15, 7.5, 7.5, 0.015)
+    drawer.circle(7.5, 7.5, 15, 7.5, 7.5, 1)
 
     drawer.set_color(0.965, 0.682, 0.176)
     drawer.filled_circle(4, 4, 13, 2.5)
@@ -95,7 +95,7 @@ while True:
     drawer.filled_circle(7.5, 7.5, 6, 3, 3, 2)
 
     drawer.set_color(219, 48, 105)
-    drawer.circle(7.5, 7.5, 6, 5.5, 5.5, 0.1, 2)
+    drawer.circle(7.5, 7.5, 6, 5.5, 5.5, 1, 2)
 ```
 
 <script>

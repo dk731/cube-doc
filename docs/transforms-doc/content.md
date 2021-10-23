@@ -18,4 +18,4 @@ Additional:
 
 - [3 Indeced Polygon (Triangle)](poly-primitive)
 
-- [Tetrahedron (Triangle Pyramid)](pyramid-primitive)
+- [4 Indeced Pyramid (Triangle pyramid)](pyramid-primitive)

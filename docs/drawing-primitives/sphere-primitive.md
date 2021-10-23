@@ -75,13 +75,13 @@ while True:
     a.filled_sphere(4, 4, 12, 3.5)
 
     drawer.set_color(0.588, 0.008, 0.0)
-    a.sphere(11, 11, 4, 4, 0.5)  # Spehre
+    a.sphere(11, 11, 4, 4, 1)
 
     drawer.set_color(247, 236, 89)
-    a.sphere(7.5, 3, 4, 7, 3, 3, 0.2)
+    a.filled_sphere(7.5, 3, 4, 7, 3, 3)
 
     drawer.set_color(1.0, 0.533, 0.863)
-    a.filled_sphere(7.5, 12, 12, 7, 3, 3)
+    a.sphere(7.5, 12, 12, 7, 3, 3, 1)
 ```
 
 <script>
