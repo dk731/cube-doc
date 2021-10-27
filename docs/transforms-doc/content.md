@@ -2,20 +2,26 @@
 sidebar_position: 0
 ---
 
-# Content
+# Introduction
 
-As graphics generation is very simillar to contructor assebmly where you have to build something complex and beautiful from very basic and simple parts for image generation we call this parts as primitive. In this library imlementation are supported following classic primitives:
+Transformation are more complex but also very powerful tool that allows to _translate_, _scale_ or _rotate_ idividual scene objects or even whole scene. Use of build-in transformation system allows to produce complicated output with almost none performance loos at a cost for a few lines. `#LIBRARY_NAME` have buil-in transformation system and in this section you would be able to find out everythink about it.
 
-- [Point](point-primitive)
+## Matrices
 
-- [Line](line-primitive)
+For relative transformations and easier manipulation of whole coordinate system, in core of this mechanism is matrices stack, whenever you are _translating_, _scaling_ or _rotating_ origin, you are modifieng top maxtrix entity. After modification all drawing calls will be affect by summary of all matrices in the stack. For stack manipulation there are 3 funtions:
 
-- [Circle](circle-primitive)
+```python
+def push_matrix() -> None
+def pop_matrix() -> None
+def pop_all_matrix() -> None
+```
 
-- [Sphere](sphere-primitive)
+In the next chapters will be explained usage of:
 
-Additional:
+- [Translations](./translations)
 
-- [3 Indeced Polygon (Triangle)](poly-primitive)
+- [Scaling](./scaling)
 
-- [4 Indeced Pyramid (Triangle pyramid)](pyramid-primitive)
+- [Rotation](./rotation.md)
+
+- [Cumulative matrix usage](./cumul-transformation)

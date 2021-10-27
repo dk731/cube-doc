@@ -10,11 +10,7 @@ We have discussed main driver functionality, but there are some additional think
 
 All of programms that you will write will most likly be build from 2 parts, _initialization_ and _endless loop_ where drawing will be handeled. When you excecute any of the primitive drawing functions, be default they are placed in stack, and are rendered all at once only when image is required to be displayed on cube. To trigger display of current scene to the cube, `show()` function is used.
 
-```python title="Simplified definition"
-def show()
-```
-
-```python title="Complete definition"
+```python
 def show() -> None
 ```
 
@@ -28,11 +24,7 @@ def set_immediate(v: bool) -> None
 
 As in almost any graphical library yuo have ability to set framerate at which image will be refreshed, by using `set_fps()` setter funtion.
 
-```python title="Simplified definition"
-def set_fps(fps_val)
-```
-
-```python title="Complete definition"
+```python
 def set_fps(fps_val: float | int) -> None
 ```
 
