@@ -18,7 +18,7 @@ function HomepageHeader() {
             className="button button--secondary button--lg"
             to="/docs/intro"
           >
-            Code yourself a real 3D display!
+            Program yourself a real 3D display!
           </Link>
         </div>
       </div>

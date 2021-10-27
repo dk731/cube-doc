@@ -10,6 +10,10 @@ For more interesting and easier drawing all cube primitive drawing function can 
 
 But how this: `point(3.21, 5.11, 6.3112)` could result in something, if there is no led pixel wich is located at: **(3.21, 5.11, 6.3112)**, following behaviour is achived with idea is that each primitive such as **point** or **line** is actually not a mathematicaly perfect, underneath **point** primitive is a sphere with diametr of **0.5**, so all led pixel within area of that sphere will be affect by this drawing call.
 
+:::tip TIP
+If you wish to use non-flipped Y version of coordinate system, you always can scale **Y** axis by **-1** with following scale call: `scale(1, -1, 1)` (More about transformation in [Transformations](../transforms-doc/content) section)
+:::
+
 For more intuitive demonstration of this idea, take a look at this example:
 
 <iframe src="http://cube.grvcp.lv/examples/system/index.html">

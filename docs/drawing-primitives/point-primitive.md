@@ -18,13 +18,13 @@ def point(x: float | int, y: float | int, z: float | int) -> None
 def point(p_vec: list[float | int] | tuple[float | int]) -> None
 ```
 
-| Property  |          Description          |               Accepted values                |
-| :-------: | :---------------------------: | :------------------------------------------: |
-|   **x**   |    X - component of point     |               _**any number**_               |
-|   **y**   |    Y - component of point     |               _**any number**_               |
-|   **z**   |    Z - component of point     |               _**any number**_               |
-|           |                               |                                              |
-| **p_vec** | structure with x, y, z values | _**tuple or list of numbers with length 3**_ |
+| Property |          Description          |               Accepted values                |
+| :------: | :---------------------------: | :------------------------------------------: |
+|   `x`    |    X - component of point     |               _**any number**_               |
+|   `y`    |    Y - component of point     |               _**any number**_               |
+|   `z`    |    Z - component of point     |               _**any number**_               |
+|          |                               |                                              |
+| `p_vec`  | structure with x, y, z values | _**tuple or list of numbers with length 3**_ |
 
 ## Example:
 

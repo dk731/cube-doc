@@ -6,11 +6,8 @@ sidebar_position: 2
 
 Now everything is installed so lets try to import `#LIBRARY_NAME` our main class that we will use to communicate with display, this can be achived with following line:
 
-```python {#custom-id}
+```python
 from LIBRARY_NAME import CLASS_NAME
-
-for i in range(123):
-  123
 ```
 
 ## Display initialization

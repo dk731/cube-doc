@@ -16,23 +16,23 @@ def poly(x1: float | int, y1: float | int, z1: float | int, x2: float | int, y2:
 def poly(p1_vec: list[float | int] | tuple[float | int], p2_vec: list[float | int] | tuple[float | int], p3_vec: list[float | int] | tuple[float | int], height=0.5: float | int) -> None
 ```
 
-|        Property         |                 Description                 |               Accepted values                |
-| :---------------------: | :-----------------------------------------: | :------------------------------------------: |
-|         **x1**          |         X - component of 1st point          |               _**any number**_               |
-|         **y1**          |         Y - component of 1st point          |               _**any number**_               |
-|         **z1**          |         Z - component of 1st point          |               _**any number**_               |
-|         **x2**          |         X - component of 2nd point          |               _**any number**_               |
-|         **y2**          |         Y - component of 2nd point          |               _**any number**_               |
-|         **z2**          |         Z - component of 2nd point          |               _**any number**_               |
-|         **x3**          |         X - component of 3rd point          |               _**any number**_               |
-|         **y3**          |         Y - component of 3rd point          |               _**any number**_               |
-|         **z3**          |         Z - component of 3rd point          |               _**any number**_               |
-|                         |                                             |                                              |
-|       **p1_vec**        | Structure with x, y, z values for 1st point | _**tuple or list of numbers with length 3**_ |
-|       **p1_vec**        | Structure with x, y, z values for 2nd point | _**tuple or list of numbers with length 3**_ |
-|       **p1_vec**        | Structure with x, y, z values for 3rd point | _**tuple or list of numbers with length 3**_ |
-|                         |                                             |                                              |
-| **height** _(optional)_ |   Height/depth of triangle. Default: 0.5    |         _**none**_/_**any number**_          |
+|       Property        |                 Description                 |               Accepted values                |
+| :-------------------: | :-----------------------------------------: | :------------------------------------------: |
+|         `x1`          |         X - component of 1st point          |               _**any number**_               |
+|         `y1`          |         Y - component of 1st point          |               _**any number**_               |
+|         `z1`          |         Z - component of 1st point          |               _**any number**_               |
+|         `x2`          |         X - component of 2nd point          |               _**any number**_               |
+|         `y2`          |         Y - component of 2nd point          |               _**any number**_               |
+|         `z2`          |         Z - component of 2nd point          |               _**any number**_               |
+|         `x3`          |         X - component of 3rd point          |               _**any number**_               |
+|         `y3`          |         Y - component of 3rd point          |               _**any number**_               |
+|         `z3`          |         Z - component of 3rd point          |               _**any number**_               |
+|                       |                                             |                                              |
+|       `p1_vec`        | Structure with x, y, z values for 1st point | _**tuple or list of numbers with length 3**_ |
+|       `p1_vec`        | Structure with x, y, z values for 2nd point | _**tuple or list of numbers with length 3**_ |
+|       `p1_vec`        | Structure with x, y, z values for 3rd point | _**tuple or list of numbers with length 3**_ |
+|                       |                                             |                                              |
+| `height` _(optional)_ |   Height/depth of triangle. Default: 0.5    |         _**none**_/_**any number**_          |
 
 ## Example:
 

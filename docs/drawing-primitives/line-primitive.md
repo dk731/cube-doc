@@ -18,19 +18,19 @@ def line(x1: float | int, y1: float | int, z1: float | int, x2: float | int, y2:
 def line(vec1: list[float | int] | tuple[float | int], vec2: list[float | int] | tuple[float | int], line_width=0.5: float | int) -> None
 ```
 
-|          Property           |                  Description                   |               Accepted values                |
-| :-------------------------: | :--------------------------------------------: | :------------------------------------------: |
-|           **x1**            |           X - component of 1st point           |               _**any number**_               |
-|           **y1**            |           Y - component of 1st point           |               _**any number**_               |
-|           **z1**            |           Z - component of 1st point           |               _**any number**_               |
-|           **x2**            |           X - component of 2nd point           |               _**any number**_               |
-|           **y2**            |           Y - component of 2nd point           |               _**any number**_               |
-|           **z2**            |           Z - component of 2nd point           |               _**any number**_               |
-|                             |                                                |                                              |
-|          **vec1**           |  Structure with x, y, z values for 1st point   | _**tuple or list of numbers with length 3**_ |
-|          **vec2**           |  Structure with x, y, z values for 2nd point   | _**tuple or list of numbers with length 3**_ |
-|                             |                                                |                                              |
-| **line_width** _(optional)_ | Width of the line in world space. Default: 0.5 |         _**none**_/_**any number**_          |
+|         Property          |                  Description                   |               Accepted values                |
+| :-----------------------: | :--------------------------------------------: | :------------------------------------------: |
+|           `x1`            |           X - component of 1st point           |               _**any number**_               |
+|           `y1`            |           Y - component of 1st point           |               _**any number**_               |
+|           `z1`            |           Z - component of 1st point           |               _**any number**_               |
+|           `x2`            |           X - component of 2nd point           |               _**any number**_               |
+|           `y2`            |           Y - component of 2nd point           |               _**any number**_               |
+|           `z2`            |           Z - component of 2nd point           |               _**any number**_               |
+|                           |                                                |                                              |
+|          `vec1`           |  Structure with x, y, z values for 1st point   | _**tuple or list of numbers with length 3**_ |
+|          `vec2`           |  Structure with x, y, z values for 2nd point   | _**tuple or list of numbers with length 3**_ |
+|                           |                                                |                                              |
+| `line_width` _(optional)_ | Width of the line in world space. Default: 0.5 |         _**none**_/_**any number**_          |
 
 ## Example:
 

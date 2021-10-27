@@ -35,28 +35,28 @@ def filled_sphere(p_vec: list[float | int] | tuple[float | int], r: float | int)
 
 
 # Ellipsoids
-def sphere(x: float | int, y: float | int, z: float | int, rx: float | int, ry: float | int, rz: float | int, line_width=0.5: float | int) -> None
-def sphere(p_vec: list[float | int] | tuple[float | int], r_vec: list[float | int] | tuple[float | int], line_width=0.5: float | int) -> None
+def ellipsoid(x: float | int, y: float | int, z: float | int, rx: float | int, ry: float | int, rz: float | int, line_width=0.5: float | int) -> None
+def ellipsoid(p_vec: list[float | int] | tuple[float | int], r_vec: list[float | int] | tuple[float | int], line_width=0.5: float | int) -> None
 
-def filled_sphere(x: float | int, y: float | int, z: float | int, rx: float | int, ry: float | int, rz: float | int) -> None
-def filled_sphere(p_vec: list[float | int] | tuple[float | int], r_vec: list[float | int] | tuple[float | int]) -> None
+def filled_ellipsoid(x: float | int, y: float | int, z: float | int, rx: float | int, ry: float | int, rz: float | int) -> None
+def filled_ellipsoid(p_vec: list[float | int] | tuple[float | int], r_vec: list[float | int] | tuple[float | int]) -> None
 ```
 
-|          Property           |                     Description                      |               Accepted values                |
-| :-------------------------: | :--------------------------------------------------: | :------------------------------------------: |
-|            **x**            |        X - component of sphere's center point        |               _**any number**_               |
-|            **y**            |        Y - component of sphere's center point        |               _**any number**_               |
-|            **z**            |        Z - component of sphere's center point        |               _**any number**_               |
-|            **r**            |                 Radius of the sphere                 |               _**any number**_               |
-|                             |                                                      |                                              |
-|           **rx**            |               X - radius of ellipsoid                |               _**any number**_               |
-|           **ry**            |               Y - radius of ellipsoid                |               _**any number**_               |
-|           **rz**            |               Z - radius of ellipsoid                |               _**any number**_               |
-|                             |                                                      |                                              |
-|          **p_vec**          | Structure with x, y, z values sphere's center point  | _**tuple or list of numbers with length 3**_ |
-|          **r_vec**          | Structure with x, y, z values for ellipsoid radiuses | _**tuple or list of numbers with length 3**_ |
-|                             |                                                      |                                              |
-| **line_width** _(optional)_ |       Width of the sphere's wall. Default: 0.5       |         _**none**_/_**any number**_          |
+|         Property          |                     Description                      |               Accepted values                |
+| :-----------------------: | :--------------------------------------------------: | :------------------------------------------: |
+|            `x`            |        X - component of sphere's center point        |               _**any number**_               |
+|            `y`            |        Y - component of sphere's center point        |               _**any number**_               |
+|            `z`            |        Z - component of sphere's center point        |               _**any number**_               |
+|            `r`            |                 Radius of the sphere                 |               _**any number**_               |
+|                           |                                                      |                                              |
+|           `rx`            |               X - radius of ellipsoid                |               _**any number**_               |
+|           `ry`            |               Y - radius of ellipsoid                |               _**any number**_               |
+|           `rz`            |               Z - radius of ellipsoid                |               _**any number**_               |
+|                           |                                                      |                                              |
+|          `p_vec`          | Structure with x, y, z values sphere's center point  | _**tuple or list of numbers with length 3**_ |
+|          `r_vec`          | Structure with x, y, z values for ellipsoid radiuses | _**tuple or list of numbers with length 3**_ |
+|                           |                                                      |                                              |
+| `line_width` _(optional)_ |       Width of the sphere's wall. Default: 0.5       |         _**none**_/_**any number**_          |
 
 ## Example:
 

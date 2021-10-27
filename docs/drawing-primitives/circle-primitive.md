@@ -35,28 +35,28 @@ def filled_circle(vec: list[float | int] | tuple[float | int], r: float | int) -
 
 
 # Ellipses
-def circle(x: float | int, y: float | int, z: float | int, rx: float | int, ry: float | int, line_width: float | int, thickness = 0.5: float | int) -> None
-def circle(p_vec: list[float | int] | tuple[float | int], r_vec: list[float | int] | tuple[float | int], line_width = 0.5: float | int, thickness = 0.5: float | int) -> None
+def ellipse(x: float | int, y: float | int, z: float | int, rx: float | int, ry: float | int, line_width: float | int, thickness = 0.5: float | int) -> None
+def ellipse(p_vec: list[float | int] | tuple[float | int], r_vec: list[float | int] | tuple[float | int], line_width = 0.5: float | int, thickness = 0.5: float | int) -> None
 
-def filled_circle(x: float | int, y: float | int, z: float | int, rx: float | int, ry: float | int, thickness = 0.5: float | int) -> None
-def filled_circle(p_vec: list[float | int] | tuple[float | int], r_vec: list[float | int] | tuple[float | int], thickness = 0.5: float | int) -> None
+def filled_ellipse(x: float | int, y: float | int, z: float | int, rx: float | int, ry: float | int, thickness = 0.5: float | int) -> None
+def filled_ellipse(p_vec: list[float | int] | tuple[float | int], r_vec: list[float | int] | tuple[float | int], thickness = 0.5: float | int) -> None
 ```
 
-|          Property           |                      Description                      |                  Accepted values                   |
-| :-------------------------: | :---------------------------------------------------: | :------------------------------------------------: |
-|            **x**            |         X - component of circle center point          |                  _**any number**_                  |
-|            **y**            |         Y - component of circle center point          |                  _**any number**_                  |
-|            **z**            |         Z - component of circle center point          |                  _**any number**_                  |
-|            **r**            |                   Radius of circle                    |                  _**any number**_                  |
-|                             |                                                       |                                                    |
-|          **p_vec**          | Structure with x, y, z values for circle center point | _**tuple**_ or _**list of numbers with length 3**_ |
-|                             |                                                       |                                                    |
-|           **rx**            |                 X - radius of ellipse                 |                  _**any number**_                  |
-|           **ry**            |                 Y - radius of ellipse                 |                  _**any number**_                  |
-|          **r_vec**          |    Structure with x, y values for ellipse radiuses    | _**tuple**_ or _**list of numbers with length 2**_ |
-|                             |                                                       |                                                    |
-| **line_width** _(optional)_ |               Line with of circle line                |                  _**any number**_                  |
-| **thickness** _(optional)_  |               Thickness/depth of circle               |                  _**any number**_                  |
+|         Property          |                      Description                      |                  Accepted values                   |
+| :-----------------------: | :---------------------------------------------------: | :------------------------------------------------: |
+|            `x`            |         X - component of circle center point          |                  _**any number**_                  |
+|            `y`            |         Y - component of circle center point          |                  _**any number**_                  |
+|            `z`            |         Z - component of circle center point          |                  _**any number**_                  |
+|            `r`            |                   Radius of circle                    |                  _**any number**_                  |
+|                           |                                                       |                                                    |
+|          `p_vec`          | Structure with x, y, z values for circle center point | _**tuple**_ or _**list of numbers with length 3**_ |
+|                           |                                                       |                                                    |
+|           `rx`            |                 X - radius of ellipse                 |                  _**any number**_                  |
+|           `ry`            |                 Y - radius of ellipse                 |                  _**any number**_                  |
+|          `r_vec`          |    Structure with x, y values for ellipse radiuses    | _**tuple**_ or _**list of numbers with length 2**_ |
+|                           |                                                       |                                                    |
+| `line_width` _(optional)_ |               Line with of circle line                |                  _**any number**_                  |
+| `thickness` _(optional)_  |               Thickness/depth of circle               |                  _**any number**_                  |
 
 ## Example:
 
