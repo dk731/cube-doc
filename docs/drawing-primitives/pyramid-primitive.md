@@ -18,25 +18,26 @@ def tetr(x1: float | int, y1: float | int, z1: float | int, x2: float | int, y2:
 def tetr(p1_vec: list[float | int] | tuple[float | int], p2_vec: list[float | int] | tuple[float | int], p3_vec: list[float | int] | tuple[float | int], p4_vec: list[float | int] | tuple[float | int]) -> None
 ```
 
-|  Property  |                      Description                       |               Accepted values                |
-| :--------: | :----------------------------------------------------: | :------------------------------------------: |
-|   **x1**   |         X - component of 1st tetrahedron point         |               _**any number**_               |
-|   **y1**   |         Y - component of 1st tetrahedron point         |               _**any number**_               |
-|   **z1**   |         Z - component of 1st tetrahedron point         |               _**any number**_               |
-|   **x2**   |         X - component of 2st tetrahedron point         |               _**any number**_               |
-|   **y2**   |         Y - component of 2st tetrahedron point         |               _**any number**_               |
-|   **z2**   |         Z - component of 2st tetrahedron point         |               _**any number**_               |
-|   **x3**   |         X - component of 3st tetrahedron point         |               _**any number**_               |
-|   **y3**   |         Y - component of 3st tetrahedron point         |               _**any number**_               |
-|   **z3**   |         Z - component of 3st tetrahedron point         |               _**any number**_               |
-|   **x4**   |         X - component of 4st tetrahedron point         |               _**any number**_               |
-|   **y4**   |         Y - component of 4st tetrahedron point         |               _**any number**_               |
-|   **z4**   |         Z - component of 4st tetrahedron point         |               _**any number**_               |
-|            |                                                        |                                              |
-| **p1_vec** | Structure with x, y, z values of 1st tetrahedron point | _**tuple or list of numbers with length 3**_ |
-| **p1_vec** | Structure with x, y, z values of 2st tetrahedron point | _**tuple or list of numbers with length 3**_ |
-| **p1_vec** | Structure with x, y, z values of 3st tetrahedron point | _**tuple or list of numbers with length 3**_ |
-| **p1_vec** | Structure with x, y, z values of 4st tetrahedron point | _**tuple or list of numbers with length 3**_ |
+|       Property       |                      Description                       |               Accepted values                |
+| :------------------: | :----------------------------------------------------: | :------------------------------------------: |
+|        **x1**        |         X - component of 1st tetrahedron point         |               _**any number**_               |
+|        **y1**        |         Y - component of 1st tetrahedron point         |               _**any number**_               |
+|        **z1**        |         Z - component of 1st tetrahedron point         |               _**any number**_               |
+|        **x2**        |         X - component of 2st tetrahedron point         |               _**any number**_               |
+|        **y2**        |         Y - component of 2st tetrahedron point         |               _**any number**_               |
+|        **z2**        |         Z - component of 2st tetrahedron point         |               _**any number**_               |
+|        **x3**        |         X - component of 3st tetrahedron point         |               _**any number**_               |
+|        **y3**        |         Y - component of 3st tetrahedron point         |               _**any number**_               |
+|        **z3**        |         Z - component of 3st tetrahedron point         |               _**any number**_               |
+|        **x4**        |         X - component of 4st tetrahedron point         |               _**any number**_               |
+|        **y4**        |         Y - component of 4st tetrahedron point         |               _**any number**_               |
+|        **z4**        |         Z - component of 4st tetrahedron point         |               _**any number**_               |
+|                      |                                                        |                                              |
+|      **p1_vec**      | Structure with x, y, z values of 1st tetrahedron point | _**tuple or list of numbers with length 3**_ |
+|      **p1_vec**      | Structure with x, y, z values of 2st tetrahedron point | _**tuple or list of numbers with length 3**_ |
+|      **p1_vec**      | Structure with x, y, z values of 3st tetrahedron point | _**tuple or list of numbers with length 3**_ |
+|      **p1_vec**      |           Structure with x, y, z values of 4           |
+| st tetrahedron point |      _**tuple or list of numbers with length 3**_      |
 
 ## Example:
 
@@ -52,16 +53,16 @@ while True:
     drawer.clear()
 
     drawer.set_color(129, 240, 229)
-    a.tetr(0, 0, 0, 6, 0, 0, 0, 0, 6, 0, 6, 0)
+    drawer.tetr(0, 0, 0, 6, 0, 0, 0, 0, 6, 0, 6, 0)
 
     drawer.set_color(0.588, 0.008, 0.0)
-    a.tetr((5, 0, 5), (9, 0, 11), (12, 0, 5), (9, 6, 7))
+    drawer.tetr((5, 0, 5), (9, 0, 11), (12, 0, 5), (9, 6, 7))
 
     drawer.set_color(247, 236, 89)
-    a.tetr([0, 15, 15], [15, 15, 15], [15, 15, 0], [15, 6, 15])
+    drawer.tetr([0, 15, 15], [15, 15, 15], [15, 15, 0], [15, 6, 15])
 
     drawer.set_color(1.0, 0.533, 0.863)
-    a.tetr((0, 15, 0), (0, 15, 13), (13, 15, 0), (0, 11, 0))
+    drawer.tetr((0, 15, 0), (0, 15, 13), (13, 15, 0), (0, 11, 0))
 ```
 
 <script>
@@ -104,6 +105,6 @@ while True:
   }
 </script>
 
-<iframe src="http://127.0.0.1:5500/public/examples/tetr/index.html">
+<iframe src="http://cube.grvcp.lv/examples/tetr/index.html">
   <p>Your browser does not support iframes.</p>
 </iframe>

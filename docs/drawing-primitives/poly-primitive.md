@@ -103,6 +103,6 @@ while True:
   }
 </script>
 
-<iframe src="http://127.0.0.1:5500/public/examples/poly/index.html">
+<iframe src="http://cube.grvcp.lv/examples/poly/index.html">
   <p>Your browser does not support iframes.</p>
 </iframe>

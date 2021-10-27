@@ -101,6 +101,6 @@ while True:
   }
 </script>
 
-<iframe src="http://127.0.0.1:5500/public/examples/line/index.html">
+<iframe src="http://cube.grvcp.lv/examples/line/index.html">
   <p>Your browser does not support iframes.</p>
 </iframe>

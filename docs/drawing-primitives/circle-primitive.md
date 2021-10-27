@@ -1,28 +1,28 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 # Circle
 
-Draw 2D circle, circle line or filled circle, default orientation is in X,Y plane.
+Draw 2D circle, circle line or filled circle, default drawing plane is X,Y.
 
 ## Definition:
 
 ```python title="Simplified definition"
 # Circles
 def circle(x, y, z, r)
-def circle(p_vec, r, line_width = 0.5, thickness = 0.5)
+def circle(p_vec, r, line_width=0.5, thickness=0.5)
 
 def filled_circle(x, y, z, r)
 def filled_circle(vec, r)
 
 
 # Ellipses
-def circle(x, y, z, rx, ry, line_width, thickness = 0.5)
-def circle(p_vec, r_vec, line_width = 0.5, thickness = 0.5)
+def ellipse(x, y, z, rx, ry, line_width, thickness = 0.5)
+def ellipse(p_vec, r_vec, line_width = 0.5, thickness = 0.5)
 
-def filled_circle(x, y, z, rx, ry, thickness = 0.5)
-def filled_circle(p_vec, r_vec, thickness = 0.5)
+def filled_ellipse(x, y, z, rx, ry, thickness = 0.5)
+def filled_ellipse(p_vec, r_vec, thickness = 0.5)
 ```
 
 ```python title="Complete definition"
@@ -77,22 +77,22 @@ while True:
     drawer.circle(4, 4, 0, 3)
 
     drawer.set_color(110, 68, 255)
-    drawer.circle(6, 12, 0, 4, 2, 1)
+    drawer.ellipse(6, 12, 0, 4, 2, 1)
 
     drawer.set_color(0.592, 0.8, 0.016)
-    drawer.circle(12, 6, 0, 2, 4, 1)
+    drawer.ellipse(12, 6, 0, 2, 4, 1)
 
     drawer.set_color(255, 0, 84)
-    drawer.circle(7.5, 7.5, 15, 7.5, 7.5, 1)
+    drawer.ellipse(7.5, 7.5, 15, 7.5, 7.5, 1)
 
     drawer.set_color(0.965, 0.682, 0.176)
     drawer.filled_circle(4, 4, 13, 2.5)
 
     drawer.set_color(77, 161, 169)
-    drawer.filled_circle(10, 10, 11, 4, 2)
+    drawer.filled_ellipse(10, 10, 11, 4, 2)
 
     drawer.set_color(0.200, 0.631, 0.992)
-    drawer.filled_circle(7.5, 7.5, 6, 3, 3, 2)
+    drawer.filled_ellipse(7.5, 7.5, 6, 3, 3, 2)
 
     drawer.set_color(219, 48, 105)
     drawer.circle(7.5, 7.5, 6, 5.5, 5.5, 1, 2)
@@ -143,6 +143,6 @@ while True:
   }
 </script>
 
-<iframe src="http://127.0.0.1:5500/public/examples/circle/index.html">
+<iframe src="http://cube.grvcp.lv/examples/circle/index.html">
   <p>Your browser does not support iframes.</p>
 </iframe>

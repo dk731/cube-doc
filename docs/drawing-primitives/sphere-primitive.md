@@ -18,11 +18,11 @@ def filled_sphere(p_vec, r)
 
 
 # Ellipsoids
-def sphere(x, y, z, rx, ry, rz, line_width=0.5);
-def sphere(p_vec, r_vec, line_width=0.5);
+def ellipsoid(x, y, z, rx, ry, rz, line_width=0.5);
+def ellipsoid(p_vec, r_vec, line_width=0.5);
 
-def filled_sphere(x, y, z, rx, ry, rz);
-def filled_sphere(p_vec, r_vec);
+def filled_ellipsoid(x, y, z, rx, ry, rz);
+def filled_ellipsoid(p_vec, r_vec);
 ```
 
 ```python title="Complete definition"
@@ -72,16 +72,16 @@ while True:
     drawer.clear()
 
     drawer.set_color(129, 240, 229)
-    a.filled_sphere(4, 4, 12, 3.5)
+    drawer.filled_sphere(4, 4, 12, 3.5)
 
     drawer.set_color(0.588, 0.008, 0.0)
-    a.sphere(11, 11, 4, 4, 1)
+    drawer.sphere(11, 11, 4, 4, 1)
 
     drawer.set_color(247, 236, 89)
-    a.filled_sphere(7.5, 3, 4, 7, 3, 3)
+    drawer.filled_ellipsoid(7.5, 3, 4, 7, 3, 3)
 
     drawer.set_color(1.0, 0.533, 0.863)
-    a.sphere(7.5, 12, 12, 7, 3, 3, 1)
+    drawer.ellipsoid(7.5, 12, 12, 7, 3, 3, 1)
 ```
 
 <script>
@@ -124,6 +124,6 @@ while True:
   }
 </script>
 
-<iframe src="http://127.0.0.1:5500/public/examples/sphere/index.html">
+<iframe src="http://cube.grvcp.lv/examples/sphere/index.html">
   <p>Your browser does not support iframes.</p>
 </iframe>

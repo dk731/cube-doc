@@ -37,7 +37,7 @@ Now when display communication object was instansiated how do we see the output 
 
 Specialy for this situation was created 1:1 emulator that will act as real hardware but on your pc, all you need to do is open your webbrowser (_Preffered to use Chrome_) and open following [page](http://cube.grvcp.lv/). _Page with simillar content should appear (Windows below is not functional example of what you should see in main window...):_
 
-<iframe src="http://127.0.0.1:5500/public/examples/clean/index.html">
+<iframe src="http://cube.grvcp.lv/examples/clean/index.html">
   <p>Your browser does not support iframes.</p>
 </iframe>
 

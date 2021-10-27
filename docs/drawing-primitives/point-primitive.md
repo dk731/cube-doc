@@ -10,21 +10,21 @@ As being most simplest among all primitives is also fastes and usualy most used.
 
 ```python title="Simplified definition"
 def point(x, y, z)
-def point(vector)
+def point(p_vec)
 ```
 
 ```python title="Complete definition"
 def point(x: float | int, y: float | int, z: float | int) -> None
-def point(vector: list[float | int] | tuple[float | int]) -> None
+def point(p_vec: list[float | int] | tuple[float | int]) -> None
 ```
 
-|  Property  |          Description          |               Accepted values                |
-| :--------: | :---------------------------: | :------------------------------------------: |
-|   **x**    |    X - component of point     |               _**any number**_               |
-|   **y**    |    Y - component of point     |               _**any number**_               |
-|   **z**    |    Z - component of point     |               _**any number**_               |
-|            |                               |                                              |
-| **vector** | structure with x, y, z values | _**tuple or list of numbers with length 3**_ |
+| Property  |          Description          |               Accepted values                |
+| :-------: | :---------------------------: | :------------------------------------------: |
+|   **x**   |    X - component of point     |               _**any number**_               |
+|   **y**   |    Y - component of point     |               _**any number**_               |
+|   **z**   |    Z - component of point     |               _**any number**_               |
+|           |                               |                                              |
+| **p_vec** | structure with x, y, z values | _**tuple or list of numbers with length 3**_ |
 
 ## Example:
 
@@ -77,6 +77,6 @@ while True:
   }
 </script>
 
-<iframe src="http://127.0.0.1:5500/public/examples/point/index.html">
+<iframe src="http://cube.grvcp.lv/examples/point/index.html">
   <p>Your browser does not support iframes.</p>
 </iframe>
