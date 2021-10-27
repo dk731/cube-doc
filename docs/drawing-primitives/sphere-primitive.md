@@ -87,8 +87,6 @@ while True:
 <script>
   let _ = () => {
     (() => {
-      document["cur_state"] = -1;
-
       document["ind_line_map"] = new Object();
       document.ind_line_map[0] = 6;
       document.ind_line_map[1] = 8;

@@ -6,7 +6,7 @@ sidebar_position: 0
 
 ## Setting Brush Color
 
-As you have probably seen drawing primitive definition you could not find there any argument that would set color of drawing object, so how we can draw colored image? Answer is very simple, library is using one global vraible called `brush` that stores **r**, **g**, **b** (each is in range [0, 255]). You cant acces this variable straight (_because of implementation of some core functionality of library_), thats why you should use _getter_ and _setter_ function to set and get current brush value:
+As you have probably seen drawing primitive definition you could not find there any argument that would set color of drawing object, so how we can draw colored image? Answer is very simple, library is using one global variable called `brush` that stores **r**, **g**, **b** (each is in range [0, 255]). You cant acces this variable straight (_because of implementation of some core functionality of library_), that's why you should use _getter_ and _setter_ function to set and get current brush value:
 
 ```python title="Simplified definition"
 def set_color(r, g, b)
