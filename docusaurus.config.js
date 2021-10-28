@@ -23,10 +23,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/dk731/3D-Led-Cube",
-        },
-        blog: {
-          showReadingTime: true,
+          routeBasePath: "/",
           editUrl: "https://github.com/dk731/3D-Led-Cube",
         },
         theme: {
@@ -48,7 +45,7 @@ const config = {
         items: [
           {
             type: "doc",
-            docId: "intro",
+            docId: "home-doc",
             position: "left",
             label: "Tutorial",
           },
@@ -67,7 +64,7 @@ const config = {
             items: [
               {
                 label: "Tutorial",
-                to: "/docs/intro",
+                to: "/",
               },
             ],
           },
@@ -75,16 +72,8 @@ const config = {
             title: "Community",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
-              },
-              {
-                label: "Discord",
+                label: "Our Discord",
                 href: "https://discordapp.com/invite/docusaurus",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
               },
             ],
           },
@@ -94,6 +83,18 @@ const config = {
               {
                 label: "GitHub",
                 href: "https://github.com/dk731/3D-Led-Cube",
+              },
+            ],
+          },
+          {
+            title: "Contact me",
+            items: [
+              {
+                html: "<div>demid.kaidalov@gmail.com</div>",
+              },
+              {
+                label: "Discord",
+                href: "https://discord.com/users/293086538311401484",
               },
             ],
           },
