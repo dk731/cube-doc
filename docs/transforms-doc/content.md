@@ -8,13 +8,17 @@ Transformation are more complex but also very powerful tool that allows to _tran
 
 ## Matrices
 
-For relative transformations and easier manipulation of whole coordinate system, in core of this mechanism is matrices stack, whenever you are _translating_, _scaling_ or _rotating_ origin, you are modifieng top maxtrix entity. After modification all drawing calls will be affect by summary of all matrices in the stack. For stack manipulation there are 3 funtions:
+For relative transformations and easier manipulation of whole coordinate system, in core of this mechanism is matrices stack, whenever you are _translating_, _scaling_ or _rotating_ origin, you are modifieng top maxtrix entity. After modification all drawing calls will be affect by summary of all matrices (each matrix will be calculating by _scaling_ -> _rotating_ -> translating) in the stack. For stack manipulation there are 3 funtions:
 
 ```python
 def push_matrix() -> None
 def pop_matrix() -> None
 def pop_all_matrix() -> None
 ```
+
+:::tip TIP
+Matrices stack cant be empty, so when you are popping the only matrix, all transformation that were included in it will be cleared, but the matrix stack will still contain 1 matrix.npxs
+:::
 
 In the next chapters will be explained usage of:
 

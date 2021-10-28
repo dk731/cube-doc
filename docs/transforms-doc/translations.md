@@ -4,27 +4,27 @@ sidebar_position: 1
 
 # Translation
 
-Translations are the most basic transformation action, they are usualy used whenewer you need to offset object or rotate around specific point.
+Translates origin by given values, most basic transformation action, they are usualy used whenewer you need to offset object or rotate around specific point.
 
 ## Definition:
 
 ```python title="Simplified definition"
-def point(x, y, z)
-def point(p_vec)
+def translate(x, y, z)
+def translate(vec)
 ```
 
 ```python title="Complete definition"
-def point(x: float | int, y: float | int, z: float | int) -> None
-def point(p_vec: list[float | int] | tuple[float | int]) -> None
+def translate(x: float | int, y: float | int, z: float | int) -> None
+def translate(vec: list[float | int] | tuple[float | int]) -> None
 ```
 
-| Property |          Description          |               Accepted values                |
-| :------: | :---------------------------: | :------------------------------------------: |
-|   `x`    |    X - component of point     |               _**any number**_               |
-|   `y`    |    Y - component of point     |               _**any number**_               |
-|   `z`    |    Z - component of point     |               _**any number**_               |
-|          |                               |                                              |
-| `p_vec`  | structure with x, y, z values | _**tuple or list of numbers with length 3**_ |
+| Property |                  Description                   |               Accepted values                |
+| :------: | :--------------------------------------------: | :------------------------------------------: |
+|   `x`    |         X - component of offset vector         |               _**any number**_               |
+|   `y`    |         Y - component of offset vector         |               _**any number**_               |
+|   `z`    |         Z - component of offset vector         |               _**any number**_               |
+|          |                                                |                                              |
+| `p_vec`  | structure with x, y, z values of offset vector | _**tuple or list of numbers with length 3**_ |
 
 ## Example:
 
@@ -32,21 +32,21 @@ def point(p_vec: list[float | int] | tuple[float | int]) -> None
 
 ```python
 from ledcd import CubeDrawer as cd
-obj = cd.get_obj()
-obj.draw_immediate = True
+drawer = cd.get_obj()
+drawer.draw_immediate = True
 
 while True:
-    obj.clear()
+    drawer.clear()
 
-    obj.push_matrix()
+    drawer.push_matrix()
 
-    obj.point(0, 0, 0)
-    obj.translate(6, 0, 0)
-    obj.point(0, 0, 0)
-    obj.translate(2, 9, 5)
-    obj.point(0, 0, 0)
+    drawer.point(0, 0, 0)
+    drawer.translate(6, 0, 0)
+    drawer.point(0, 0, 0)
+    drawer.translate(2, 9, 5)
+    drawer.point(0, 0, 0)
 
-    obj.pop_matrix()
+    drawer.pop_matrix()
 ```
 
 <script>
