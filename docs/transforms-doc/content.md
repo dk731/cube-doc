@@ -27,5 +27,3 @@ In the next chapters will be explained usage of:
 - [Scaling](./scaling)
 
 - [Rotation](./rotation.md)
-
-- [Cumulative matrix usage](./cumul-transformation)
