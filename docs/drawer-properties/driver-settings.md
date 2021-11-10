@@ -38,7 +38,7 @@ IF you want to disable FPS cap, just set it to pass **0** as `fps_val`.
 
 ## Waiting for Virtual Cube
 
-By default when using [cube emulator](http://cube.grvcp.lv/) to see output, excecution of code will halt on `show()` function call until at least one virtual cube will be connected, but if you dont disable such behavior `wait_cube` variable exists and can be accesed with:
+By default when using [cube emulator](http://cube.trycubic.com/) to see output, excecution of code will halt on `show()` function call until at least one virtual cube will be connected, but if you dont disable such behavior `wait_cube` variable exists and can be accesed with:
 
 ```python
 def set_wait_cube(v: bool) -> None

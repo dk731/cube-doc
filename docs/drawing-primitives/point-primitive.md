@@ -75,6 +75,6 @@ while True:
   }
 </script>
 
-<iframe src="http://cube.grvcp.lv/examples/point/index.html">
+<iframe src="http://cube.trycubic.com/examples/point/index.html">
   <p>Your browser does not support iframes.</p>
 </iframe>

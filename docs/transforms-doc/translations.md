@@ -83,6 +83,6 @@ while True:
   }
 </script>
 
-<iframe src="http://127.0.0.1:5500/public/examples/translation/index.html" width="80%" height="400" id="translation_example" load="translations_on_load()">
+<iframe src="https://cube.trycubic.com/examples/translation/index.html" width="80%" height="400" id="translation_example" load="translations_on_load()">
   <p>Your browser does not support iframes.</p>
 </iframe>

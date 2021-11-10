@@ -32,9 +32,9 @@ After display initaliztion you have apportuiny to set additional settion used by
 
 Now when display communication object was instansiated how do we see the output of our programm if we dont have a real 3D display?
 
-Specialy for this situation was created 1:1 emulator that will act as real hardware but on your pc, all you need to do is open your webbrowser (_Preffered to use Chrome_) and open following [page](http://cube.grvcp.lv/). _Page with simillar content should appear (Windows below is not functional example of what you should see in main window...):_
+Specialy for this situation was created 1:1 emulator that will act as real hardware but on your pc, all you need to do is open your webbrowser (_Preffered to use Chrome_) and open following [page](http://cube.trycubic.com/). _Page with simillar content should appear (Windows below is not functional example of what you should see in main window...):_
 
-<iframe src="http://cube.grvcp.lv/examples/clean/index.html">
+<iframe src="http://cube.trycubic.com/examples/clean/index.html">
   <p>Your browser does not support iframes.</p>
 </iframe>
 
@@ -46,7 +46,7 @@ Use you scroll to zoom-in and zoom-out
 
 ## First Programm
 
-Now when out [simulator page](http://cube.grvcp.lv/) is oppened and library is installed, lets try to run out _Hello World!_ alternative of graphical world (_Hello Triangle!_):
+Now when out [simulator page](http://cube.trycubic.com/) is oppened and library is installed, lets try to run out _Hello World!_ alternative of graphical world (_Hello Triangle!_):
 
 ```python
 from ledcd import CubeDrawer

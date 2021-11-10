@@ -102,6 +102,6 @@ while True:
   }
 </script>
 
-<iframe src="http://cube.grvcp.lv/examples/tetr/index.html">
+<iframe src="http://cube.trycubic.com/examples/tetr/index.html">
   <p>Your browser does not support iframes.</p>
 </iframe>

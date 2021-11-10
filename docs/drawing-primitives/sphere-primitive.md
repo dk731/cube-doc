@@ -122,6 +122,6 @@ while True:
   }
 </script>
 
-<iframe src="http://cube.grvcp.lv/examples/sphere/index.html">
+<iframe src="http://cube.trycubic.com/examples/sphere/index.html">
   <p>Your browser does not support iframes.</p>
 </iframe>
