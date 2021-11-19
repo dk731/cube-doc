@@ -103,6 +103,6 @@ while True:
   }
 </script>
 
-<iframe src="http://cube.trycubic.com/examples/poly/index.html">
+<iframe src="https://cube.trycubic.com/examples/poly/index.html">
   <p>Your browser does not support iframes.</p>
 </iframe>

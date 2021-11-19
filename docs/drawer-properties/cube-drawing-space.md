@@ -16,7 +16,7 @@ If you wish to use non-flipped Y version of coordinate system, you always can sc
 
 For more intuitive demonstration of this idea, take a look at this example:
 
-<iframe src="http://cube.trycubic.com/examples/system/index.html">
+<iframe src="https://cube.trycubic.com/examples/system/index.html">
   <p>Your browser does not support iframes.</p>
 </iframe>
 

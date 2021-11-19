@@ -75,6 +75,10 @@ const config = {
                 label: "Our Discord",
                 href: "https://discordapp.com/invite/docusaurus",
               },
+              {
+                label: "Facebook",
+                href: "https://www.facebook.com/trycubicnow",
+              },
             ],
           },
           {
@@ -83,6 +87,10 @@ const config = {
               {
                 label: "GitHub",
                 href: "https://github.com/dk731/3D-Led-Cube",
+              },
+              {
+                label: "TryCubic",
+                href: "https://trycubic.com/",
               },
             ],
           },

@@ -141,6 +141,6 @@ while True:
   }
 </script>
 
-<iframe src="http://cube.trycubic.com/examples/circle/index.html">
+<iframe src="https://cube.trycubic.com/examples/circle/index.html">
   <p>Your browser does not support iframes.</p>
 </iframe>
