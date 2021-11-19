@@ -10,9 +10,13 @@ Displays and graphics are facinating field of software and hardware, that gives 
 
 **TryCubic** project is here to discover this phenomena and give apportunity to anyone who is interested to play with this techonology.
 
-## What Is This?
+## About The Project
 
 This project is an implementation of a unique device and tools to program it. Hardware part consists of actual display (3D grid of small 3 colored LED's) and Raspberry PI board to controll it, special design allows end user to controll each voxel independently from the others and does not produce any flickering achiving ~110 frames per second. More about implementation can be found on [GitHub](https://github.com/dk731/3D-Led-Cube).
+
+## What Is This?
+
+This is a documentation for Python library that allows you to programm 3D display with easy and powerful interface. Curretly supported Python version are >=3.6 & <= 3.10.
 
 # How This Works?
 

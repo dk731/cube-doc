@@ -4,10 +4,10 @@ sidebar_position: 2
 
 # First steps
 
-Now everything is installed so lets try to import `#LIBRARY_NAME` our main class that we will use to communicate with display, this can be achived with following line:
+When everything is installed and is ready for work, first thing to do is import library
 
 ```python
-from LIBRARY_NAME import CLASS_NAME
+from ledcd  import CubeDrawer
 ```
 
 ## Display initialization
@@ -19,14 +19,10 @@ As library supports only single display mode (_You cannot exctend it with anothe
 Now to obtain real interface object we will have to call static function `get_obj()`, like so:
 
 ```python
-drawer = CLASS_NAME.get_obj()
+drawer = CubeDrawer.get_obj()
 ```
 
 If this code excecuted succesfully this means that display is initialized and is ready to be used!
-
-:::tip Tip
-After display initaliztion you have apportuiny to set additional settion used by display such as: set framerate using `set_fps_cap(fps: int | float)`, set brightness using `set_brightness(brgh: int | float)` but more about that later.
-:::
 
 ## First Image
 
