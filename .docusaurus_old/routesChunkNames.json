@@ -1,0 +1,172 @@
+{
+  "/__docusaurus/debug-3d6": {
+    "component": "component---theme-debug-config-23-a-2ff"
+  },
+  "/__docusaurus/debug/config-914": {
+    "component": "component---theme-debug-config-23-a-2ff"
+  },
+  "/__docusaurus/debug/content-c28": {
+    "component": "component---theme-debug-contentba-8-ce7",
+    "allContent": "allContent---docusaurus-debug-content-246-9aa"
+  },
+  "/__docusaurus/debug/globalData-3cf": {
+    "component": "component---theme-debug-global-dataede-0fa"
+  },
+  "/__docusaurus/debug/metadata-31b": {
+    "component": "component---theme-debug-site-metadata-68-e-3d4"
+  },
+  "/__docusaurus/debug/registry-0da": {
+    "component": "component---theme-debug-registry-679-501"
+  },
+  "/__docusaurus/debug/routes-244": {
+    "component": "component---theme-debug-routes-946-699"
+  },
+  "/blog-9d7": {
+    "component": "component---theme-blog-list-pagea-6-a-7ba",
+    "sidebar": "sidebar---blog-204-8fb",
+    "items": [
+      {
+        "content": "content---blogf-4-f-cd7"
+      },
+      {
+        "content": "content---blog-871-381"
+      },
+      {
+        "content": "content---blog-925-e00"
+      }
+    ],
+    "metadata": "metadata---blogb-2-b-df1"
+  },
+  "/blog/first-blog-post-f12": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "sidebar": "sidebar---blog-204-8fb",
+    "content": "content---blog-first-blog-poste-27-4a1"
+  },
+  "/blog/long-blog-post-5b3": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "sidebar": "sidebar---blog-204-8fb",
+    "content": "content---blog-long-blog-post-736-bc7"
+  },
+  "/blog/mdx-blog-post-2cc": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "sidebar": "sidebar---blog-204-8fb",
+    "content": "content---blog-mdx-blog-post-593-37b"
+  },
+  "/blog/tags-0f8": {
+    "component": "component---theme-blog-tags-list-page-01-a-d0b",
+    "sidebar": "sidebar---blog-204-8fb",
+    "tags": "tags---blog-tagsa-70-da2"
+  },
+  "/blog/tags/docusaurus-5ac": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---blog-204-8fb",
+    "items": [
+      {
+        "content": "content---blogf-4-f-cd7"
+      },
+      {
+        "content": "content---blog-871-381"
+      },
+      {
+        "content": "content---blog-925-e00"
+      }
+    ],
+    "metadata": "metadata---blog-tags-docusaurusa-80-728"
+  },
+  "/blog/tags/hello-70f": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---blog-204-8fb",
+    "items": [
+      {
+        "content": "content---blog-871-381"
+      }
+    ],
+    "metadata": "metadata---blog-tags-hello-30-a-bed"
+  },
+  "/blog/tags/hola-78d": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---blog-204-8fb",
+    "items": [
+      {
+        "content": "content---blog-925-e00"
+      }
+    ],
+    "metadata": "metadata---blog-tags-holae-16-18a"
+  },
+  "/markdown-page-be1": {
+    "component": "component---theme-mdx-page-1-f-3-b90",
+    "content": "content---markdown-page-393-028"
+  },
+  "/-891": {
+    "component": "component---theme-doc-page-1-be-9be",
+    "versionMetadata": "versionMetadata---935-fcf"
+  },
+  "/-546": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---0-e-3-279"
+  },
+  "/drawer-properties/color-management-9bf": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---drawer-properties-color-managementc-7-b-4c9"
+  },
+  "/drawer-properties/cube-drawing-space-210": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---drawer-properties-cube-drawing-spaceb-64-05f"
+  },
+  "/drawer-properties/driver-settings-1e2": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---drawer-properties-driver-settings-864-2ac"
+  },
+  "/drawing-primitives/circle-primitive-133": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---drawing-primitives-circle-primitive-0-c-8-cdd"
+  },
+  "/drawing-primitives/content-8ab": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---drawing-primitives-content-3-d-1-540"
+  },
+  "/drawing-primitives/line-primitive-53a": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---drawing-primitives-line-primitive-2-c-3-696"
+  },
+  "/drawing-primitives/point-primitive-454": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---drawing-primitives-point-primitive-651-293"
+  },
+  "/drawing-primitives/poly-primitive-38b": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---drawing-primitives-poly-primitive-252-961"
+  },
+  "/drawing-primitives/pyramid-primitive-47c": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---drawing-primitives-pyramid-primitiveb-16-609"
+  },
+  "/drawing-primitives/sphere-primitive-c99": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---drawing-primitives-sphere-primitive-3-f-7-905"
+  },
+  "/transforms-doc/content-b3f": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---transforms-doc-contentb-76-066"
+  },
+  "/transforms-doc/rotation-2d5": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---transforms-doc-rotationbfb-8bb"
+  },
+  "/transforms-doc/scaling-3f9": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---transforms-doc-scalinga-19-52a"
+  },
+  "/transforms-doc/translations-4ff": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---transforms-doc-translationsbd-4-acc"
+  },
+  "/tutorial-basics/first_steps-945": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---tutorial-basics-first-steps-6-d-9-9e7"
+  },
+  "/tutorial-basics/setup-008": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---tutorial-basics-setup-924-a44"
+  }
+}

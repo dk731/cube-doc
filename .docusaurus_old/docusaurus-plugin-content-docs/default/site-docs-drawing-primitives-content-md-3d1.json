@@ -1,0 +1,26 @@
+{
+  "unversionedId": "drawing-primitives/content",
+  "id": "drawing-primitives/content",
+  "isDocsHomePage": false,
+  "title": "Content",
+  "description": "As graphics generation is very simillar to contructor assebmly where you have to build something complex and beautiful from very basic and simple parts for image generation we call this parts as primitive. In this library imlementation are supported following classic primitives:",
+  "source": "@site/docs/drawing-primitives/content.md",
+  "sourceDirName": "drawing-primitives",
+  "slug": "/drawing-primitives/content",
+  "permalink": "/drawing-primitives/content",
+  "editUrl": "https://github.com/dk731/3D-Led-Cube/docs/drawing-primitives/content.md",
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "sidebar_position": 0
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Additional Functions and Settings",
+    "permalink": "/drawer-properties/driver-settings"
+  },
+  "next": {
+    "title": "Point",
+    "permalink": "/drawing-primitives/point-primitive"
+  }
+}

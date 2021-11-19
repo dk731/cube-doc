@@ -30,6 +30,10 @@ def scale(vec: list[float | int] | tuple[float | int]) -> None
 |          |                                               |                                              |
 | `p_vec`  | structure with x, y, z values of scale vector | _**tuple or list of numbers with length 3**_ |
 
+:::caution CAUTION
+When using scaling function, never use **0** as scaling factor, this will lead to unexcepted output, insted use **1**!
+:::
+
 ## Example:
 
 <div id="code_block_hidden" hidden></div>

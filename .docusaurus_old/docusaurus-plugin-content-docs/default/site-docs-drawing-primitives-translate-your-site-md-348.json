@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Drawing Primitives/translate-your-site",
+  "id": "Drawing Primitives/translate-your-site",
+  "isDocsHomePage": false,
+  "title": "Translate your site",
+  "description": "Let's translate docs/intro.md to French.",
+  "source": "@site/docs/Drawing Primitives/translate-your-site.md",
+  "sourceDirName": "Drawing Primitives",
+  "slug": "/Drawing Primitives/translate-your-site",
+  "permalink": "/docs/Drawing Primitives/translate-your-site",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Drawing Primitives/translate-your-site.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "First steps",
+    "permalink": "/docs/Drawing Primitives/first_steps copy"
+  }
+}

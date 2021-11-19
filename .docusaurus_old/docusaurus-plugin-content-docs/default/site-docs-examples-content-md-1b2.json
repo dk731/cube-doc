@@ -1,0 +1,22 @@
+{
+  "unversionedId": "Examples/content",
+  "id": "Examples/content",
+  "isDocsHomePage": false,
+  "title": "Content",
+  "description": "",
+  "source": "@site/docs/Examples/content.md",
+  "sourceDirName": "Examples",
+  "slug": "/Examples/content",
+  "permalink": "/docs/Examples/content",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Examples/content.md",
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "sidebar_position": 0
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Color Management",
+    "permalink": "/docs/drawer-properties/color-management"
+  }
+}

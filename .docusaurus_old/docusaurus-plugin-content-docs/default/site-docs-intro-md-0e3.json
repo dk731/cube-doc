@@ -1,0 +1,24 @@
+{
+  "unversionedId": "home-doc",
+  "id": "home-doc",
+  "isDocsHomePage": false,
+  "title": "Introduction",
+  "description": "Displays and graphics are facinating field of software and hardware, that gives easy and intuitive way to visualize data and art, but what if we add another dimension and have a 3D display?",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/",
+  "editUrl": "https://github.com/dk731/3D-Led-Cube/docs/intro.md",
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "home-doc",
+    "slug": "/"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Setup",
+    "permalink": "/tutorial-basics/setup"
+  }
+}

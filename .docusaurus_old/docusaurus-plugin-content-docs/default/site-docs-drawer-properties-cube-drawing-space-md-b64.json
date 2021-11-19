@@ -1,0 +1,26 @@
+{
+  "unversionedId": "drawer-properties/cube-drawing-space",
+  "id": "drawer-properties/cube-drawing-space",
+  "isDocsHomePage": false,
+  "title": "Drawing Space",
+  "description": "Cube's drawing coordinates exists in 3D space (X, Y, Z) with Y axis being inverted (As in any graphics that you would do on computer Y start at the top and goes to the bottom), without any transformation applied (Just when you initialized cube) world space is distributed from [0, 0, 0]**_ (one of the upper corners) to [15, 15, 15]_ (opposite to upper bottom corner), where on each whole coordinate ((0, 0, 0), (1, 2, 3), (7, 1, 2)**) led pixel is located.",
+  "source": "@site/docs/drawer-properties/cube-drawing-space.md",
+  "sourceDirName": "drawer-properties",
+  "slug": "/drawer-properties/cube-drawing-space",
+  "permalink": "/drawer-properties/cube-drawing-space",
+  "editUrl": "https://github.com/dk731/3D-Led-Cube/docs/drawer-properties/cube-drawing-space.md",
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Color Management",
+    "permalink": "/drawer-properties/color-management"
+  },
+  "next": {
+    "title": "Additional Functions and Settings",
+    "permalink": "/drawer-properties/driver-settings"
+  }
+}

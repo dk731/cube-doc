@@ -1,0 +1,23 @@
+{
+  "unversionedId": "drawing-primitives/first_steps copy",
+  "id": "drawing-primitives/first_steps copy",
+  "isDocsHomePage": false,
+  "title": "Introduction",
+  "description": "As graphics generation is very simillar to contructor assebmly where you have to build something complex and beautiful from very basic and simple parts for image generation we call this parts as primitive. In this library imlementation are supported following classic primitives:",
+  "source": "@site/docs/drawing-primitives/first_steps copy.md",
+  "sourceDirName": "drawing-primitives",
+  "slug": "/drawing-primitives/first_steps copy",
+  "permalink": "/docs/drawing-primitives/first_steps copy",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/drawing-primitives/first_steps copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "sidebar_position": 0
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Markdown Features",
+    "permalink": "/docs/tutorial-basics/markdown-features"
+  }
+}

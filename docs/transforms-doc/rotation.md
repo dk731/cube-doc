@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Rotation
 
-Roatate space suing
+Rotate whole space by given [Euler angles](https://en.wikipedia.org/wiki/Euler_angles) vector.
 
 :::caution CAUTION
 Be aware that when you use scaling function, not only primitive shapes are changing but also their coordinates.

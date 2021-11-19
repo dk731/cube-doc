@@ -1,0 +1,19 @@
+{
+  "unversionedId": "_animated_script",
+  "id": "_animated_script",
+  "isDocsHomePage": false,
+  "title": "_animated_script",
+  "description": "export default class AnimationBlock extends React.Component {",
+  "source": "@site/docs/_animated_script.mdx",
+  "sourceDirName": ".",
+  "slug": "/_animated_script",
+  "permalink": "/docs/_animated_script",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/_animated_script.mdx",
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Content",
+    "permalink": "/docs/examples-dir/content"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "drawing-primitives/pyramid-primitive",
+  "id": "drawing-primitives/pyramid-primitive",
+  "isDocsHomePage": false,
+  "title": "Tetrahedron",
+  "description": "Filles space between 2 points with some offset(line width).",
+  "source": "@site/docs/drawing-primitives/pyramid-primitive.md",
+  "sourceDirName": "drawing-primitives",
+  "slug": "/drawing-primitives/pyramid-primitive",
+  "permalink": "/drawing-primitives/pyramid-primitive",
+  "editUrl": "https://github.com/dk731/3D-Led-Cube/docs/drawing-primitives/pyramid-primitive.md",
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Triangle",
+    "permalink": "/drawing-primitives/poly-primitive"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/transforms-doc/content"
+  }
+}

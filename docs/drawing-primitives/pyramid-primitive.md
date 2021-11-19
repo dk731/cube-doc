@@ -4,7 +4,7 @@ sidebar_position: 6
 
 # Tetrahedron
 
-Filles space between 2 points with some offset(line width).
+Draws filled 3D tetrahedron.
 
 ## Definition:
 

@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Sphere
 
-Filles space between 2 points with some offset(line width).
+Drawing sphere or ellipsoid. Scaling affects only sphere's shape.
 
 ## Definition:
 

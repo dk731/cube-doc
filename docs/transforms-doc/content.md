@@ -4,7 +4,7 @@ sidebar_position: 0
 
 # Introduction
 
-Transformation are more complex but also very powerful tool that allows to _translate_, _scale_ or _rotate_ idividual scene objects or even whole scene. Use of build-in transformation system allows to produce complicated output with almost none performance loos at a cost for a few lines. `#LIBRARY_NAME` have buil-in transformation system and in this section you would be able to find out everythink about it.
+Transformation are more complex but also very powerful tool that allows to _translate_, _scale_ or _rotate_ idividual scene objects or even whole scene. Use of build-in transformation system allows to produce complicated output with almost none performance loos at a cost for a few lines. Library have built-in transformation system and in this section you would be able to find out everythink about it.
 
 ## Matrices
 

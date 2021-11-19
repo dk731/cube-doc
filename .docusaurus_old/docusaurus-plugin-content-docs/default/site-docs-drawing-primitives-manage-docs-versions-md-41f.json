@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Drawing Primitives/manage-docs-versions",
+  "id": "Drawing Primitives/manage-docs-versions",
+  "isDocsHomePage": false,
+  "title": "Manage Docs Versions",
+  "description": "Docusaurus can manage multiple versions of your docs.",
+  "source": "@site/docs/Drawing Primitives/manage-docs-versions.md",
+  "sourceDirName": "Drawing Primitives",
+  "slug": "/Drawing Primitives/manage-docs-versions",
+  "permalink": "/docs/Drawing Primitives/manage-docs-versions",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Drawing Primitives/manage-docs-versions.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Markdown Features",
+    "permalink": "/docs/tutorial-basics/markdown-features"
+  },
+  "next": {
+    "title": "First steps",
+    "permalink": "/docs/Drawing Primitives/first_steps copy"
+  }
+}

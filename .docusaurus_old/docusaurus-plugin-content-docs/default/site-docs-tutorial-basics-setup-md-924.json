@@ -1,0 +1,26 @@
+{
+  "unversionedId": "tutorial-basics/setup",
+  "id": "tutorial-basics/setup",
+  "isDocsHomePage": false,
+  "title": "Setup",
+  "description": "Before getting to our first lines of code, first we will need to install all needed tools and dependecies.",
+  "source": "@site/docs/tutorial-basics/setup.md",
+  "sourceDirName": "tutorial-basics",
+  "slug": "/tutorial-basics/setup",
+  "permalink": "/tutorial-basics/setup",
+  "editUrl": "https://github.com/dk731/3D-Led-Cube/docs/tutorial-basics/setup.md",
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/"
+  },
+  "next": {
+    "title": "First steps",
+    "permalink": "/tutorial-basics/first_steps"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "transforms-doc/translations",
+  "id": "transforms-doc/translations",
+  "isDocsHomePage": false,
+  "title": "Translation",
+  "description": "Translates origin by given values, most basic transformation action, they are usualy used whenewer you need to offset object or rotate around specific point.",
+  "source": "@site/docs/transforms-doc/translations.md",
+  "sourceDirName": "transforms-doc",
+  "slug": "/transforms-doc/translations",
+  "permalink": "/transforms-doc/translations",
+  "editUrl": "https://github.com/dk731/3D-Led-Cube/docs/transforms-doc/translations.md",
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/transforms-doc/content"
+  },
+  "next": {
+    "title": "Scaling",
+    "permalink": "/transforms-doc/scaling"
+  }
+}

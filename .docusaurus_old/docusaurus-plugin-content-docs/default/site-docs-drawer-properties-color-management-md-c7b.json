@@ -1,0 +1,26 @@
+{
+  "unversionedId": "drawer-properties/color-management",
+  "id": "drawer-properties/color-management",
+  "isDocsHomePage": false,
+  "title": "Color Management",
+  "description": "Setting Brush Color",
+  "source": "@site/docs/drawer-properties/color-management.md",
+  "sourceDirName": "drawer-properties",
+  "slug": "/drawer-properties/color-management",
+  "permalink": "/drawer-properties/color-management",
+  "editUrl": "https://github.com/dk731/3D-Led-Cube/docs/drawer-properties/color-management.md",
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "sidebar_position": 0
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "First steps",
+    "permalink": "/tutorial-basics/first_steps"
+  },
+  "next": {
+    "title": "Drawing Space",
+    "permalink": "/drawer-properties/cube-drawing-space"
+  }
+}

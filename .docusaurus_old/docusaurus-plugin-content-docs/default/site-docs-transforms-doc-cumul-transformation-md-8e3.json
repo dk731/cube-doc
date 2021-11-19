@@ -1,0 +1,22 @@
+{
+  "unversionedId": "transforms-doc/cumul-transformation",
+  "id": "transforms-doc/cumul-transformation",
+  "isDocsHomePage": false,
+  "title": "Cumulative transformations",
+  "description": "",
+  "source": "@site/docs/transforms-doc/cumul-transformation.md",
+  "sourceDirName": "transforms-doc",
+  "slug": "/transforms-doc/cumul-transformation",
+  "permalink": "/transforms-doc/cumul-transformation",
+  "editUrl": "https://github.com/dk731/3D-Led-Cube/docs/transforms-doc/cumul-transformation.md",
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Rotation",
+    "permalink": "/transforms-doc/rotation"
+  }
+}

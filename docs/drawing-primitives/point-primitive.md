@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Point
 
-As being most simplest among all primitives is also fastes and usualy most used. As any primitive in this library point color is equal to current brush color ([More about colors here](../drawer-properties/color-management)).
+Draws a filled _sphere with radius 0.5_ at given position, scaling wont affect point size.
 
 ## Definition:
 

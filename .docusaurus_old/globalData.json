@@ -1,0 +1,103 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/",
+          "mainDocId": "home-doc",
+          "docs": [
+            {
+              "id": "drawer-properties/color-management",
+              "path": "/drawer-properties/color-management",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "drawer-properties/cube-drawing-space",
+              "path": "/drawer-properties/cube-drawing-space",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "drawer-properties/driver-settings",
+              "path": "/drawer-properties/driver-settings",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "drawing-primitives/circle-primitive",
+              "path": "/drawing-primitives/circle-primitive",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "drawing-primitives/content",
+              "path": "/drawing-primitives/content",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "drawing-primitives/line-primitive",
+              "path": "/drawing-primitives/line-primitive",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "drawing-primitives/point-primitive",
+              "path": "/drawing-primitives/point-primitive",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "drawing-primitives/poly-primitive",
+              "path": "/drawing-primitives/poly-primitive",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "drawing-primitives/pyramid-primitive",
+              "path": "/drawing-primitives/pyramid-primitive",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "drawing-primitives/sphere-primitive",
+              "path": "/drawing-primitives/sphere-primitive",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "home-doc",
+              "path": "/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "transforms-doc/content",
+              "path": "/transforms-doc/content",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "transforms-doc/rotation",
+              "path": "/transforms-doc/rotation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "transforms-doc/scaling",
+              "path": "/transforms-doc/scaling",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "transforms-doc/translations",
+              "path": "/transforms-doc/translations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/first_steps",
+              "path": "/tutorial-basics/first_steps",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/setup",
+              "path": "/tutorial-basics/setup",
+              "sidebar": "tutorialSidebar"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

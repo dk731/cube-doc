@@ -1,0 +1,26 @@
+{
+  "unversionedId": "drawing-primitives/line-primitive",
+  "id": "drawing-primitives/line-primitive",
+  "isDocsHomePage": false,
+  "title": "Line",
+  "description": "Filles space between 2 points with some offset(line width).",
+  "source": "@site/docs/drawing-primitives/line-primitive.md",
+  "sourceDirName": "drawing-primitives",
+  "slug": "/drawing-primitives/line-primitive",
+  "permalink": "/drawing-primitives/line-primitive",
+  "editUrl": "https://github.com/dk731/3D-Led-Cube/docs/drawing-primitives/line-primitive.md",
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Point",
+    "permalink": "/drawing-primitives/point-primitive"
+  },
+  "next": {
+    "title": "Circle",
+    "permalink": "/drawing-primitives/circle-primitive"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "drawing-primitives/circle-primitive",
+  "id": "drawing-primitives/circle-primitive",
+  "isDocsHomePage": false,
+  "title": "Circle",
+  "description": "Draw 2D circle, circle line or filled circle, default drawing plane is X,Y.",
+  "source": "@site/docs/drawing-primitives/circle-primitive.md",
+  "sourceDirName": "drawing-primitives",
+  "slug": "/drawing-primitives/circle-primitive",
+  "permalink": "/drawing-primitives/circle-primitive",
+  "editUrl": "https://github.com/dk731/3D-Led-Cube/docs/drawing-primitives/circle-primitive.md",
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Line",
+    "permalink": "/drawing-primitives/line-primitive"
+  },
+  "next": {
+    "title": "Sphere",
+    "permalink": "/drawing-primitives/sphere-primitive"
+  }
+}

@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Line
 
-Filles space between 2 points with some offset(line width).
+Draws line between 2 points, scaling wont affect line thinkness.
 
 ## Definition:
 

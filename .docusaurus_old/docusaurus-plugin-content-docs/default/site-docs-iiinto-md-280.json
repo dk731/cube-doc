@@ -1,0 +1,20 @@
+{
+  "unversionedId": "iiinto",
+  "id": "iiinto",
+  "isDocsHomePage": false,
+  "title": "iiinto",
+  "description": "qwe",
+  "source": "@site/docs/iiinto.md",
+  "sourceDirName": ".",
+  "slug": "/iiinto",
+  "permalink": "/docs/iiinto",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/iiinto.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Translate your site",
+    "permalink": "/docs/tutorial-extras/translate-your-site"
+  }
+}

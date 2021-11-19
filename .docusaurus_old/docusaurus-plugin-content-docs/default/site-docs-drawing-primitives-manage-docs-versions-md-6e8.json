@@ -1,0 +1,27 @@
+{
+  "unversionedId": "drawing-primitives/manage-docs-versions",
+  "id": "drawing-primitives/manage-docs-versions",
+  "isDocsHomePage": false,
+  "title": "Manage Docs Versions",
+  "description": "Docusaurus can manage multiple versions of your docs.",
+  "source": "@site/docs/drawing-primitives/manage-docs-versions.md",
+  "sourceDirName": "drawing-primitives",
+  "slug": "/drawing-primitives/manage-docs-versions",
+  "permalink": "/docs/drawing-primitives/manage-docs-versions",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/drawing-primitives/manage-docs-versions.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/docs/drawing-primitives/first_steps copy"
+  },
+  "next": {
+    "title": "Translate your site",
+    "permalink": "/docs/drawing-primitives/translate-your-site"
+  }
+}

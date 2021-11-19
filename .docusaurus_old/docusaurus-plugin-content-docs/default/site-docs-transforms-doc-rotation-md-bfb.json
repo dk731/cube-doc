@@ -1,0 +1,22 @@
+{
+  "unversionedId": "transforms-doc/rotation",
+  "id": "transforms-doc/rotation",
+  "isDocsHomePage": false,
+  "title": "Rotation",
+  "description": "Roatate space suing",
+  "source": "@site/docs/transforms-doc/rotation.md",
+  "sourceDirName": "transforms-doc",
+  "slug": "/transforms-doc/rotation",
+  "permalink": "/transforms-doc/rotation",
+  "editUrl": "https://github.com/dk731/3D-Led-Cube/docs/transforms-doc/rotation.md",
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Scaling",
+    "permalink": "/transforms-doc/scaling"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "transforms-doc/content",
+  "id": "transforms-doc/content",
+  "isDocsHomePage": false,
+  "title": "Introduction",
+  "description": "Transformation are more complex but also very powerful tool that allows to translate, scale or rotate idividual scene objects or even whole scene. Use of build-in transformation system allows to produce complicated output with almost none performance loos at a cost for a few lines. #LIBRARY_NAME have buil-in transformation system and in this section you would be able to find out everythink about it.",
+  "source": "@site/docs/transforms-doc/content.md",
+  "sourceDirName": "transforms-doc",
+  "slug": "/transforms-doc/content",
+  "permalink": "/transforms-doc/content",
+  "editUrl": "https://github.com/dk731/3D-Led-Cube/docs/transforms-doc/content.md",
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "sidebar_position": 0
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tetrahedron",
+    "permalink": "/drawing-primitives/pyramid-primitive"
+  },
+  "next": {
+    "title": "Translation",
+    "permalink": "/transforms-doc/translations"
+  }
+}

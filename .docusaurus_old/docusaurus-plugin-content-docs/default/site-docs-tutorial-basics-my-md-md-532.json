@@ -1,0 +1,24 @@
+{
+  "unversionedId": "tutorial-basics/my_md",
+  "id": "tutorial-basics/my_md",
+  "isDocsHomePage": false,
+  "title": "HeLLo!",
+  "description": "qweqwe",
+  "source": "@site/docs/tutorial-basics/my_md.md",
+  "sourceDirName": "tutorial-basics",
+  "slug": "/tutorial-basics/my_md",
+  "permalink": "/docs/tutorial-basics/my_md",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/tutorial-basics/my_md.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Congratulations!",
+    "permalink": "/docs/tutorial-basics/congratulations"
+  },
+  "next": {
+    "title": "Manage Docs Versions",
+    "permalink": "/docs/tutorial-extras/manage-docs-versions"
+  }
+}

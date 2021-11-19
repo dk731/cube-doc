@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Examples/contet",
+  "id": "Examples/contet",
+  "isDocsHomePage": false,
+  "title": "qwe",
+  "description": "",
+  "source": "@site/docs/Examples/contet.md",
+  "sourceDirName": "Examples",
+  "slug": "/Examples/contet",
+  "permalink": "/docs/Examples/contet",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Examples/contet.md",
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Color Management",
+    "permalink": "/docs/drawer-properties/color-management"
+  }
+}

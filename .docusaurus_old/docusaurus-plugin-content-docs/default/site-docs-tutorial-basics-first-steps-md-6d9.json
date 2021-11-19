@@ -1,0 +1,26 @@
+{
+  "unversionedId": "tutorial-basics/first_steps",
+  "id": "tutorial-basics/first_steps",
+  "isDocsHomePage": false,
+  "title": "First steps",
+  "description": "Now everything is installed so lets try to import #LIBRARY_NAME our main class that we will use to communicate with display, this can be achived with following line:",
+  "source": "@site/docs/tutorial-basics/first_steps.md",
+  "sourceDirName": "tutorial-basics",
+  "slug": "/tutorial-basics/first_steps",
+  "permalink": "/tutorial-basics/first_steps",
+  "editUrl": "https://github.com/dk731/3D-Led-Cube/docs/tutorial-basics/first_steps.md",
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Setup",
+    "permalink": "/tutorial-basics/setup"
+  },
+  "next": {
+    "title": "Color Management",
+    "permalink": "/drawer-properties/color-management"
+  }
+}

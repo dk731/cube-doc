@@ -1,0 +1,26 @@
+{
+  "unversionedId": "transforms-doc/scaling",
+  "id": "transforms-doc/scaling",
+  "isDocsHomePage": false,
+  "title": "Scaling",
+  "description": "Scales whole space, affects everything except: **point** - size, any width of primitive(**line width**, **circle line width** or **sphere line width**), and thikness of 2D objecs (**circl**, **ellipsoid**).",
+  "source": "@site/docs/transforms-doc/scaling.md",
+  "sourceDirName": "transforms-doc",
+  "slug": "/transforms-doc/scaling",
+  "permalink": "/transforms-doc/scaling",
+  "editUrl": "https://github.com/dk731/3D-Led-Cube/docs/transforms-doc/scaling.md",
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Translation",
+    "permalink": "/transforms-doc/translations"
+  },
+  "next": {
+    "title": "Rotation",
+    "permalink": "/transforms-doc/rotation"
+  }
+}

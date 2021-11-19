@@ -1,0 +1,26 @@
+{
+  "unversionedId": "drawing-primitives/sphere-primitive",
+  "id": "drawing-primitives/sphere-primitive",
+  "isDocsHomePage": false,
+  "title": "Sphere",
+  "description": "Filles space between 2 points with some offset(line width).",
+  "source": "@site/docs/drawing-primitives/sphere-primitive.md",
+  "sourceDirName": "drawing-primitives",
+  "slug": "/drawing-primitives/sphere-primitive",
+  "permalink": "/drawing-primitives/sphere-primitive",
+  "editUrl": "https://github.com/dk731/3D-Led-Cube/docs/drawing-primitives/sphere-primitive.md",
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Circle",
+    "permalink": "/drawing-primitives/circle-primitive"
+  },
+  "next": {
+    "title": "Triangle",
+    "permalink": "/drawing-primitives/poly-primitive"
+  }
+}

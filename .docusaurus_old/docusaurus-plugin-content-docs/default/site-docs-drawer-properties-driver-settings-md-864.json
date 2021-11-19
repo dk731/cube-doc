@@ -1,0 +1,26 @@
+{
+  "unversionedId": "drawer-properties/driver-settings",
+  "id": "drawer-properties/driver-settings",
+  "isDocsHomePage": false,
+  "title": "Additional Functions and Settings",
+  "description": "We have discussed main driver functionality, but there are some additional think you must know about.",
+  "source": "@site/docs/drawer-properties/driver-settings.md",
+  "sourceDirName": "drawer-properties",
+  "slug": "/drawer-properties/driver-settings",
+  "permalink": "/drawer-properties/driver-settings",
+  "editUrl": "https://github.com/dk731/3D-Led-Cube/docs/drawer-properties/driver-settings.md",
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Drawing Space",
+    "permalink": "/drawer-properties/cube-drawing-space"
+  },
+  "next": {
+    "title": "Content",
+    "permalink": "/drawing-primitives/content"
+  }
+}

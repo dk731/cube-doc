@@ -6,7 +6,7 @@ sidebar_position: 0
 
 ## Setting Brush Color
 
-As you have probably seen drawing primitive definition you could not find there any argument that would set color of drawing object, so how we can draw colored image? Answer is very simple, library is using one global variable called `brush` that stores **r**, **g**, **b** (each is in range [0, 255]). You cant acces this variable straight (_because of implementation of some core functionality of library_), that's why you should use _getter_ and _setter_ function to set and get current brush value:
+For color management library is using one global variable called `brush` that stores **r**, **g**, **b** (each is in range [0, 255]). You cant acces this variable straight (_because of implementation of some core functionality of library_), that's why you should use _getter_ and _setter_ function to set and get current brush value:
 
 ```python title="Simplified definition"
 def set_color(r, g, b)
@@ -85,4 +85,4 @@ All function related to color such as: `set_color(...)`, `set_brightness(...)` o
 
 # Examples
 
-You can easily find usage of setters and getters that were mentioned on this page in any drawing [primitive examples](../drawing-primitives/content) or in the [examples directory](../examples-dir/content).
+You can easily find usage of setters and getters that were mentioned on this page in any drawing [primitive examples](../drawing-primitives/content).

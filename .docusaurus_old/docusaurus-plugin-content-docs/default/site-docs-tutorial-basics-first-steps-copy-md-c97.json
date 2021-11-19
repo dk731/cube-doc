@@ -1,0 +1,27 @@
+{
+  "unversionedId": "tutorial-basics/first_steps copy",
+  "id": "tutorial-basics/first_steps copy",
+  "isDocsHomePage": false,
+  "title": "First steps",
+  "description": "Now everything is installed so lets try to import #LIBRARY_NAME our main class that we will use to communicate with display, this can be achived with following line:",
+  "source": "@site/docs/tutorial-basics/first_steps copy.md",
+  "sourceDirName": "tutorial-basics",
+  "slug": "/tutorial-basics/first_steps copy",
+  "permalink": "/docs/tutorial-basics/first_steps copy",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/tutorial-basics/first_steps copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Setup",
+    "permalink": "/docs/tutorial-basics/setup"
+  },
+  "next": {
+    "title": "First steps",
+    "permalink": "/docs/tutorial-basics/first_steps"
+  }
+}

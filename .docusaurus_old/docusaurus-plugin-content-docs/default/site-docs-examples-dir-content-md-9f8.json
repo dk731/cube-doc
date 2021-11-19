@@ -1,0 +1,22 @@
+{
+  "unversionedId": "examples-dir/content",
+  "id": "examples-dir/content",
+  "isDocsHomePage": false,
+  "title": "Content",
+  "description": "",
+  "source": "@site/docs/examples-dir/content.md",
+  "sourceDirName": "examples-dir",
+  "slug": "/examples-dir/content",
+  "permalink": "/docs/examples-dir/content",
+  "editUrl": "https://github.com/dk731/3D-Led-Cube/docs/examples-dir/content.md",
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "sidebar_position": 0
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Content",
+    "permalink": "/docs/transforms-doc/content"
+  }
+}

@@ -4,6 +4,8 @@ sidebar_position: 5
 
 # Triangle
 
+Draws filled 3D triangle.
+
 ## Definition:
 
 ```python title="Simplified definition"

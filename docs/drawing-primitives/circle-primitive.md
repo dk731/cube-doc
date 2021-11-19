@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Circle
 
-Draw 2D circle, circle line or filled circle, default drawing plane is X,Y.
+Draw 2D circle, circle line or filled circle, default drawing plane is X,Y. Scaling affects only circle's shape.
 
 ## Definition:
 

@@ -1,0 +1,726 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "versionLabel": "Next",
+          "versionPath": "/",
+          "versionEditUrl": "https://github.com/dk731/3D-Led-Cube/docs",
+          "versionEditUrlLocalized": "https://github.com/dk731/3D-Led-Cube/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "C:\\Users\\user\\Desktop\\cube-doc\\sidebars.js",
+          "contentPath": "C:\\Users\\user\\Desktop\\cube-doc\\docs",
+          "contentPathLocalized": "C:\\Users\\user\\Desktop\\cube-doc\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "mainDocId": "home-doc",
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "home-doc"
+              },
+              {
+                "type": "category",
+                "label": "Setup and First Image!",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "tutorial-basics/setup"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorial-basics/first_steps"
+                  }
+                ],
+                "collapsed": true
+              },
+              {
+                "type": "category",
+                "label": "Drawer Properties",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "drawer-properties/color-management"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "drawer-properties/cube-drawing-space"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "drawer-properties/driver-settings"
+                  }
+                ],
+                "collapsed": true
+              },
+              {
+                "type": "category",
+                "label": "Drawing Primitives",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "drawing-primitives/content"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "drawing-primitives/point-primitive"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "drawing-primitives/line-primitive"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "drawing-primitives/circle-primitive"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "drawing-primitives/sphere-primitive"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "drawing-primitives/poly-primitive"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "drawing-primitives/pyramid-primitive"
+                  }
+                ],
+                "collapsed": true
+              },
+              {
+                "type": "category",
+                "label": "Transformations",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "transforms-doc/content"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "transforms-doc/translations"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "transforms-doc/scaling"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "transforms-doc/rotation"
+                  }
+                ],
+                "collapsed": true
+              }
+            ]
+          },
+          "permalinkToSidebar": {
+            "/drawer-properties/color-management": "tutorialSidebar",
+            "/drawer-properties/cube-drawing-space": "tutorialSidebar",
+            "/drawer-properties/driver-settings": "tutorialSidebar",
+            "/drawing-primitives/circle-primitive": "tutorialSidebar",
+            "/drawing-primitives/content": "tutorialSidebar",
+            "/drawing-primitives/line-primitive": "tutorialSidebar",
+            "/drawing-primitives/point-primitive": "tutorialSidebar",
+            "/drawing-primitives/poly-primitive": "tutorialSidebar",
+            "/drawing-primitives/pyramid-primitive": "tutorialSidebar",
+            "/drawing-primitives/sphere-primitive": "tutorialSidebar",
+            "/": "tutorialSidebar",
+            "/transforms-doc/content": "tutorialSidebar",
+            "/transforms-doc/rotation": "tutorialSidebar",
+            "/transforms-doc/scaling": "tutorialSidebar",
+            "/transforms-doc/translations": "tutorialSidebar",
+            "/tutorial-basics/first_steps": "tutorialSidebar",
+            "/tutorial-basics/setup": "tutorialSidebar"
+          },
+          "docs": [
+            {
+              "unversionedId": "drawer-properties/color-management",
+              "id": "drawer-properties/color-management",
+              "isDocsHomePage": false,
+              "title": "Color Management",
+              "description": "Setting Brush Color",
+              "source": "@site/docs/drawer-properties/color-management.md",
+              "sourceDirName": "drawer-properties",
+              "slug": "/drawer-properties/color-management",
+              "permalink": "/drawer-properties/color-management",
+              "editUrl": "https://github.com/dk731/3D-Led-Cube/docs/drawer-properties/color-management.md",
+              "version": "current",
+              "sidebarPosition": 0,
+              "frontMatter": {
+                "sidebar_position": 0
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "First steps",
+                "permalink": "/tutorial-basics/first_steps"
+              },
+              "next": {
+                "title": "Drawing Space",
+                "permalink": "/drawer-properties/cube-drawing-space"
+              }
+            },
+            {
+              "unversionedId": "drawer-properties/cube-drawing-space",
+              "id": "drawer-properties/cube-drawing-space",
+              "isDocsHomePage": false,
+              "title": "Drawing Space",
+              "description": "Cube's drawing coordinates exists in 3D space (X, Y, Z) with Y axis being inverted (As in any graphics that you would do on computer Y start at the top and goes to the bottom), without any transformation applied (Just when you initialized cube) world space is distributed from [0, 0, 0]**_ (one of the upper corners) to [15, 15, 15]_ (opposite to upper bottom corner), where on each whole coordinate ((0, 0, 0), (1, 2, 3), (7, 1, 2)**) led pixel is located.",
+              "source": "@site/docs/drawer-properties/cube-drawing-space.md",
+              "sourceDirName": "drawer-properties",
+              "slug": "/drawer-properties/cube-drawing-space",
+              "permalink": "/drawer-properties/cube-drawing-space",
+              "editUrl": "https://github.com/dk731/3D-Led-Cube/docs/drawer-properties/cube-drawing-space.md",
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Color Management",
+                "permalink": "/drawer-properties/color-management"
+              },
+              "next": {
+                "title": "Additional Functions and Settings",
+                "permalink": "/drawer-properties/driver-settings"
+              }
+            },
+            {
+              "unversionedId": "drawer-properties/driver-settings",
+              "id": "drawer-properties/driver-settings",
+              "isDocsHomePage": false,
+              "title": "Additional Functions and Settings",
+              "description": "We have discussed main driver functionality, but there are some additional think you must know about.",
+              "source": "@site/docs/drawer-properties/driver-settings.md",
+              "sourceDirName": "drawer-properties",
+              "slug": "/drawer-properties/driver-settings",
+              "permalink": "/drawer-properties/driver-settings",
+              "editUrl": "https://github.com/dk731/3D-Led-Cube/docs/drawer-properties/driver-settings.md",
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Drawing Space",
+                "permalink": "/drawer-properties/cube-drawing-space"
+              },
+              "next": {
+                "title": "Content",
+                "permalink": "/drawing-primitives/content"
+              }
+            },
+            {
+              "unversionedId": "drawing-primitives/circle-primitive",
+              "id": "drawing-primitives/circle-primitive",
+              "isDocsHomePage": false,
+              "title": "Circle",
+              "description": "Draw 2D circle, circle line or filled circle, default drawing plane is X,Y.",
+              "source": "@site/docs/drawing-primitives/circle-primitive.md",
+              "sourceDirName": "drawing-primitives",
+              "slug": "/drawing-primitives/circle-primitive",
+              "permalink": "/drawing-primitives/circle-primitive",
+              "editUrl": "https://github.com/dk731/3D-Led-Cube/docs/drawing-primitives/circle-primitive.md",
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Line",
+                "permalink": "/drawing-primitives/line-primitive"
+              },
+              "next": {
+                "title": "Sphere",
+                "permalink": "/drawing-primitives/sphere-primitive"
+              }
+            },
+            {
+              "unversionedId": "drawing-primitives/content",
+              "id": "drawing-primitives/content",
+              "isDocsHomePage": false,
+              "title": "Content",
+              "description": "As graphics generation is very simillar to contructor assebmly where you have to build something complex and beautiful from very basic and simple parts for image generation we call this parts as primitive. In this library imlementation are supported following classic primitives:",
+              "source": "@site/docs/drawing-primitives/content.md",
+              "sourceDirName": "drawing-primitives",
+              "slug": "/drawing-primitives/content",
+              "permalink": "/drawing-primitives/content",
+              "editUrl": "https://github.com/dk731/3D-Led-Cube/docs/drawing-primitives/content.md",
+              "version": "current",
+              "sidebarPosition": 0,
+              "frontMatter": {
+                "sidebar_position": 0
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Additional Functions and Settings",
+                "permalink": "/drawer-properties/driver-settings"
+              },
+              "next": {
+                "title": "Point",
+                "permalink": "/drawing-primitives/point-primitive"
+              }
+            },
+            {
+              "unversionedId": "drawing-primitives/line-primitive",
+              "id": "drawing-primitives/line-primitive",
+              "isDocsHomePage": false,
+              "title": "Line",
+              "description": "Filles space between 2 points with some offset(line width).",
+              "source": "@site/docs/drawing-primitives/line-primitive.md",
+              "sourceDirName": "drawing-primitives",
+              "slug": "/drawing-primitives/line-primitive",
+              "permalink": "/drawing-primitives/line-primitive",
+              "editUrl": "https://github.com/dk731/3D-Led-Cube/docs/drawing-primitives/line-primitive.md",
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Point",
+                "permalink": "/drawing-primitives/point-primitive"
+              },
+              "next": {
+                "title": "Circle",
+                "permalink": "/drawing-primitives/circle-primitive"
+              }
+            },
+            {
+              "unversionedId": "drawing-primitives/point-primitive",
+              "id": "drawing-primitives/point-primitive",
+              "isDocsHomePage": false,
+              "title": "Point",
+              "description": "As being most simplest among all primitives is also fastes and usualy most used. As any primitive in this library point color is equal to current brush color (More about colors here).",
+              "source": "@site/docs/drawing-primitives/point-primitive.md",
+              "sourceDirName": "drawing-primitives",
+              "slug": "/drawing-primitives/point-primitive",
+              "permalink": "/drawing-primitives/point-primitive",
+              "editUrl": "https://github.com/dk731/3D-Led-Cube/docs/drawing-primitives/point-primitive.md",
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Content",
+                "permalink": "/drawing-primitives/content"
+              },
+              "next": {
+                "title": "Line",
+                "permalink": "/drawing-primitives/line-primitive"
+              }
+            },
+            {
+              "unversionedId": "drawing-primitives/poly-primitive",
+              "id": "drawing-primitives/poly-primitive",
+              "isDocsHomePage": false,
+              "title": "Triangle",
+              "description": "Definition:",
+              "source": "@site/docs/drawing-primitives/poly-primitive.md",
+              "sourceDirName": "drawing-primitives",
+              "slug": "/drawing-primitives/poly-primitive",
+              "permalink": "/drawing-primitives/poly-primitive",
+              "editUrl": "https://github.com/dk731/3D-Led-Cube/docs/drawing-primitives/poly-primitive.md",
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Sphere",
+                "permalink": "/drawing-primitives/sphere-primitive"
+              },
+              "next": {
+                "title": "Tetrahedron",
+                "permalink": "/drawing-primitives/pyramid-primitive"
+              }
+            },
+            {
+              "unversionedId": "drawing-primitives/pyramid-primitive",
+              "id": "drawing-primitives/pyramid-primitive",
+              "isDocsHomePage": false,
+              "title": "Tetrahedron",
+              "description": "Filles space between 2 points with some offset(line width).",
+              "source": "@site/docs/drawing-primitives/pyramid-primitive.md",
+              "sourceDirName": "drawing-primitives",
+              "slug": "/drawing-primitives/pyramid-primitive",
+              "permalink": "/drawing-primitives/pyramid-primitive",
+              "editUrl": "https://github.com/dk731/3D-Led-Cube/docs/drawing-primitives/pyramid-primitive.md",
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Triangle",
+                "permalink": "/drawing-primitives/poly-primitive"
+              },
+              "next": {
+                "title": "Introduction",
+                "permalink": "/transforms-doc/content"
+              }
+            },
+            {
+              "unversionedId": "drawing-primitives/sphere-primitive",
+              "id": "drawing-primitives/sphere-primitive",
+              "isDocsHomePage": false,
+              "title": "Sphere",
+              "description": "Filles space between 2 points with some offset(line width).",
+              "source": "@site/docs/drawing-primitives/sphere-primitive.md",
+              "sourceDirName": "drawing-primitives",
+              "slug": "/drawing-primitives/sphere-primitive",
+              "permalink": "/drawing-primitives/sphere-primitive",
+              "editUrl": "https://github.com/dk731/3D-Led-Cube/docs/drawing-primitives/sphere-primitive.md",
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Circle",
+                "permalink": "/drawing-primitives/circle-primitive"
+              },
+              "next": {
+                "title": "Triangle",
+                "permalink": "/drawing-primitives/poly-primitive"
+              }
+            },
+            {
+              "unversionedId": "home-doc",
+              "id": "home-doc",
+              "isDocsHomePage": false,
+              "title": "Introduction",
+              "description": "Displays and graphics are facinating field of software and hardware, that gives easy and intuitive way to visualize data and art, but what if we add another dimension and have a 3D display?",
+              "source": "@site/docs/intro.md",
+              "sourceDirName": ".",
+              "slug": "/",
+              "permalink": "/",
+              "editUrl": "https://github.com/dk731/3D-Led-Cube/docs/intro.md",
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "id": "home-doc",
+                "slug": "/"
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Setup",
+                "permalink": "/tutorial-basics/setup"
+              }
+            },
+            {
+              "unversionedId": "transforms-doc/content",
+              "id": "transforms-doc/content",
+              "isDocsHomePage": false,
+              "title": "Introduction",
+              "description": "Transformation are more complex but also very powerful tool that allows to translate, scale or rotate idividual scene objects or even whole scene. Use of build-in transformation system allows to produce complicated output with almost none performance loos at a cost for a few lines. #LIBRARY_NAME have buil-in transformation system and in this section you would be able to find out everythink about it.",
+              "source": "@site/docs/transforms-doc/content.md",
+              "sourceDirName": "transforms-doc",
+              "slug": "/transforms-doc/content",
+              "permalink": "/transforms-doc/content",
+              "editUrl": "https://github.com/dk731/3D-Led-Cube/docs/transforms-doc/content.md",
+              "version": "current",
+              "sidebarPosition": 0,
+              "frontMatter": {
+                "sidebar_position": 0
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Tetrahedron",
+                "permalink": "/drawing-primitives/pyramid-primitive"
+              },
+              "next": {
+                "title": "Translation",
+                "permalink": "/transforms-doc/translations"
+              }
+            },
+            {
+              "unversionedId": "transforms-doc/rotation",
+              "id": "transforms-doc/rotation",
+              "isDocsHomePage": false,
+              "title": "Rotation",
+              "description": "Roatate space suing",
+              "source": "@site/docs/transforms-doc/rotation.md",
+              "sourceDirName": "transforms-doc",
+              "slug": "/transforms-doc/rotation",
+              "permalink": "/transforms-doc/rotation",
+              "editUrl": "https://github.com/dk731/3D-Led-Cube/docs/transforms-doc/rotation.md",
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Scaling",
+                "permalink": "/transforms-doc/scaling"
+              }
+            },
+            {
+              "unversionedId": "transforms-doc/scaling",
+              "id": "transforms-doc/scaling",
+              "isDocsHomePage": false,
+              "title": "Scaling",
+              "description": "Scales whole space, affects everything except: **point** - size, any width of primitive(**line width**, **circle line width** or **sphere line width**), and thikness of 2D objecs (**circl**, **ellipsoid**).",
+              "source": "@site/docs/transforms-doc/scaling.md",
+              "sourceDirName": "transforms-doc",
+              "slug": "/transforms-doc/scaling",
+              "permalink": "/transforms-doc/scaling",
+              "editUrl": "https://github.com/dk731/3D-Led-Cube/docs/transforms-doc/scaling.md",
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Translation",
+                "permalink": "/transforms-doc/translations"
+              },
+              "next": {
+                "title": "Rotation",
+                "permalink": "/transforms-doc/rotation"
+              }
+            },
+            {
+              "unversionedId": "transforms-doc/translations",
+              "id": "transforms-doc/translations",
+              "isDocsHomePage": false,
+              "title": "Translation",
+              "description": "Translates origin by given values, most basic transformation action, they are usualy used whenewer you need to offset object or rotate around specific point.",
+              "source": "@site/docs/transforms-doc/translations.md",
+              "sourceDirName": "transforms-doc",
+              "slug": "/transforms-doc/translations",
+              "permalink": "/transforms-doc/translations",
+              "editUrl": "https://github.com/dk731/3D-Led-Cube/docs/transforms-doc/translations.md",
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introduction",
+                "permalink": "/transforms-doc/content"
+              },
+              "next": {
+                "title": "Scaling",
+                "permalink": "/transforms-doc/scaling"
+              }
+            },
+            {
+              "unversionedId": "tutorial-basics/first_steps",
+              "id": "tutorial-basics/first_steps",
+              "isDocsHomePage": false,
+              "title": "First steps",
+              "description": "Now everything is installed so lets try to import #LIBRARY_NAME our main class that we will use to communicate with display, this can be achived with following line:",
+              "source": "@site/docs/tutorial-basics/first_steps.md",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/first_steps",
+              "permalink": "/tutorial-basics/first_steps",
+              "editUrl": "https://github.com/dk731/3D-Led-Cube/docs/tutorial-basics/first_steps.md",
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Setup",
+                "permalink": "/tutorial-basics/setup"
+              },
+              "next": {
+                "title": "Color Management",
+                "permalink": "/drawer-properties/color-management"
+              }
+            },
+            {
+              "unversionedId": "tutorial-basics/setup",
+              "id": "tutorial-basics/setup",
+              "isDocsHomePage": false,
+              "title": "Setup",
+              "description": "Before getting to our first lines of code, first we will need to install all needed tools and dependecies.",
+              "source": "@site/docs/tutorial-basics/setup.md",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/setup",
+              "permalink": "/tutorial-basics/setup",
+              "editUrl": "https://github.com/dk731/3D-Led-Cube/docs/tutorial-basics/setup.md",
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introduction",
+                "permalink": "/"
+              },
+              "next": {
+                "title": "First steps",
+                "permalink": "/tutorial-basics/first_steps"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogPosts": [
+        {
+          "id": "mdx-blog-post",
+          "metadata": {
+            "permalink": "/blog/mdx-blog-post",
+            "source": "@site/blog/2021-08-01-mdx-blog-post.mdx",
+            "title": "MDX Blog Post",
+            "description": "Blog posts support Docusaurus Markdown features, such as MDX.",
+            "date": "2021-08-01T00:00:00.000Z",
+            "formattedDate": "August 1, 2021",
+            "tags": [
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "readingTime": 0.175,
+            "truncated": false,
+            "nextItem": {
+              "title": "Long Blog Post",
+              "permalink": "/blog/long-blog-post"
+            }
+          }
+        },
+        {
+          "id": "long-blog-post",
+          "metadata": {
+            "permalink": "/blog/long-blog-post",
+            "source": "@site/blog/2019-05-29-long-blog-post.md",
+            "title": "Long Blog Post",
+            "description": "This is the summary of a very long blog post,",
+            "date": "2019-05-29T00:00:00.000Z",
+            "formattedDate": "May 29, 2019",
+            "tags": [
+              {
+                "label": "hello",
+                "permalink": "/blog/tags/hello"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "readingTime": 2.05,
+            "truncated": true,
+            "prevItem": {
+              "title": "MDX Blog Post",
+              "permalink": "/blog/mdx-blog-post"
+            },
+            "nextItem": {
+              "title": "First Blog Post",
+              "permalink": "/blog/first-blog-post"
+            }
+          }
+        },
+        {
+          "id": "first-blog-post",
+          "metadata": {
+            "permalink": "/blog/first-blog-post",
+            "source": "@site/blog/2019-05-28-first-blog-post.md",
+            "title": "First Blog Post",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
+            "date": "2019-05-28T00:00:00.000Z",
+            "formattedDate": "May 28, 2019",
+            "tags": [
+              {
+                "label": "hola",
+                "permalink": "/blog/tags/hola"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "readingTime": 0.12,
+            "truncated": false,
+            "prevItem": {
+              "title": "Long Blog Post",
+              "permalink": "/blog/long-blog-post"
+            }
+          }
+        }
+      ],
+      "blogListPaginated": [
+        {
+          "metadata": {
+            "permalink": "/blog",
+            "page": 1,
+            "postsPerPage": 10,
+            "totalPages": 1,
+            "totalCount": 3,
+            "previousPage": null,
+            "nextPage": null,
+            "blogDescription": "Blog",
+            "blogTitle": "Blog"
+          },
+          "items": [
+            "mdx-blog-post",
+            "long-blog-post",
+            "first-blog-post"
+          ]
+        }
+      ],
+      "blogTags": {
+        "docusaurus": {
+          "name": "docusaurus",
+          "items": [
+            "mdx-blog-post",
+            "long-blog-post",
+            "first-blog-post"
+          ],
+          "permalink": "/blog/tags/docusaurus"
+        },
+        "hello": {
+          "name": "hello",
+          "items": [
+            "long-blog-post"
+          ],
+          "permalink": "/blog/tags/hello"
+        },
+        "hola": {
+          "name": "hola",
+          "items": [
+            "first-blog-post"
+          ],
+          "permalink": "/blog/tags/hola"
+        }
+      },
+      "blogTagsListPath": "/blog/tags"
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "mdx",
+        "permalink": "/markdown-page",
+        "source": "@site/src/pages/markdown-page.md"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {
+    "default": null
+  },
+  "docusaurus-theme-classic": {
+    "default": null
+  }
+}

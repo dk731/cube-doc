@@ -1,0 +1,142 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Introduction",
+        "href": "/"
+      },
+      {
+        "type": "category",
+        "label": "Setup and First Image!",
+        "items": [
+          {
+            "type": "link",
+            "label": "Setup",
+            "href": "/tutorial-basics/setup"
+          },
+          {
+            "type": "link",
+            "label": "First steps",
+            "href": "/tutorial-basics/first_steps"
+          }
+        ],
+        "collapsed": true
+      },
+      {
+        "type": "category",
+        "label": "Drawer Properties",
+        "items": [
+          {
+            "type": "link",
+            "label": "Color Management",
+            "href": "/drawer-properties/color-management"
+          },
+          {
+            "type": "link",
+            "label": "Drawing Space",
+            "href": "/drawer-properties/cube-drawing-space"
+          },
+          {
+            "type": "link",
+            "label": "Additional Functions and Settings",
+            "href": "/drawer-properties/driver-settings"
+          }
+        ],
+        "collapsed": true
+      },
+      {
+        "type": "category",
+        "label": "Drawing Primitives",
+        "items": [
+          {
+            "type": "link",
+            "label": "Content",
+            "href": "/drawing-primitives/content"
+          },
+          {
+            "type": "link",
+            "label": "Point",
+            "href": "/drawing-primitives/point-primitive"
+          },
+          {
+            "type": "link",
+            "label": "Line",
+            "href": "/drawing-primitives/line-primitive"
+          },
+          {
+            "type": "link",
+            "label": "Circle",
+            "href": "/drawing-primitives/circle-primitive"
+          },
+          {
+            "type": "link",
+            "label": "Sphere",
+            "href": "/drawing-primitives/sphere-primitive"
+          },
+          {
+            "type": "link",
+            "label": "Triangle",
+            "href": "/drawing-primitives/poly-primitive"
+          },
+          {
+            "type": "link",
+            "label": "Tetrahedron",
+            "href": "/drawing-primitives/pyramid-primitive"
+          }
+        ],
+        "collapsed": true
+      },
+      {
+        "type": "category",
+        "label": "Transformations",
+        "items": [
+          {
+            "type": "link",
+            "label": "Introduction",
+            "href": "/transforms-doc/content"
+          },
+          {
+            "type": "link",
+            "label": "Translation",
+            "href": "/transforms-doc/translations"
+          },
+          {
+            "type": "link",
+            "label": "Scaling",
+            "href": "/transforms-doc/scaling"
+          },
+          {
+            "type": "link",
+            "label": "Rotation",
+            "href": "/transforms-doc/rotation"
+          }
+        ],
+        "collapsed": true
+      }
+    ]
+  },
+  "permalinkToSidebar": {
+    "/drawer-properties/color-management": "tutorialSidebar",
+    "/drawer-properties/cube-drawing-space": "tutorialSidebar",
+    "/drawer-properties/driver-settings": "tutorialSidebar",
+    "/drawing-primitives/circle-primitive": "tutorialSidebar",
+    "/drawing-primitives/content": "tutorialSidebar",
+    "/drawing-primitives/line-primitive": "tutorialSidebar",
+    "/drawing-primitives/point-primitive": "tutorialSidebar",
+    "/drawing-primitives/poly-primitive": "tutorialSidebar",
+    "/drawing-primitives/pyramid-primitive": "tutorialSidebar",
+    "/drawing-primitives/sphere-primitive": "tutorialSidebar",
+    "/": "tutorialSidebar",
+    "/transforms-doc/content": "tutorialSidebar",
+    "/transforms-doc/rotation": "tutorialSidebar",
+    "/transforms-doc/scaling": "tutorialSidebar",
+    "/transforms-doc/translations": "tutorialSidebar",
+    "/tutorial-basics/first_steps": "tutorialSidebar",
+    "/tutorial-basics/setup": "tutorialSidebar"
+  }
+}

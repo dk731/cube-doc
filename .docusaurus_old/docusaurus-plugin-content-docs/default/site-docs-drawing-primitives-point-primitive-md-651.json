@@ -1,0 +1,26 @@
+{
+  "unversionedId": "drawing-primitives/point-primitive",
+  "id": "drawing-primitives/point-primitive",
+  "isDocsHomePage": false,
+  "title": "Point",
+  "description": "As being most simplest among all primitives is also fastes and usualy most used. As any primitive in this library point color is equal to current brush color (More about colors here).",
+  "source": "@site/docs/drawing-primitives/point-primitive.md",
+  "sourceDirName": "drawing-primitives",
+  "slug": "/drawing-primitives/point-primitive",
+  "permalink": "/drawing-primitives/point-primitive",
+  "editUrl": "https://github.com/dk731/3D-Led-Cube/docs/drawing-primitives/point-primitive.md",
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Content",
+    "permalink": "/drawing-primitives/content"
+  },
+  "next": {
+    "title": "Line",
+    "permalink": "/drawing-primitives/line-primitive"
+  }
+}

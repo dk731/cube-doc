@@ -1,0 +1,27 @@
+{
+  "unversionedId": "tutorial-extras/first_steps copy",
+  "id": "tutorial-extras/first_steps copy",
+  "isDocsHomePage": false,
+  "title": "First steps",
+  "description": "Now everything is installed so lets try to import #LIBRARY_NAME our main class that we will use to communicate with display, this can be achived with following line:",
+  "source": "@site/docs/tutorial-extras/first_steps copy.md",
+  "sourceDirName": "tutorial-extras",
+  "slug": "/tutorial-extras/first_steps copy",
+  "permalink": "/docs/tutorial-extras/first_steps copy",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/tutorial-extras/first_steps copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Manage Docs Versions",
+    "permalink": "/docs/tutorial-extras/manage-docs-versions"
+  },
+  "next": {
+    "title": "Translate your site",
+    "permalink": "/docs/tutorial-extras/translate-your-site"
+  }
+}

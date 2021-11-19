@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Examples/spinning-bar",
+  "id": "Examples/spinning-bar",
+  "isDocsHomePage": false,
+  "title": "qwe",
+  "description": "",
+  "source": "@site/docs/Examples/spinning-bar.md",
+  "sourceDirName": "Examples",
+  "slug": "/Examples/spinning-bar",
+  "permalink": "/docs/Examples/spinning-bar",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Examples/spinning-bar.md",
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Color Management",
+    "permalink": "/docs/drawer-properties/color-management"
+  }
+}
