@@ -73,7 +73,7 @@ const config = {
             items: [
               {
                 label: "Our Discord",
-                href: "https://discordapp.com/invite/docusaurus",
+                href: "https://discord.gg/5rt6D88jdh",
               },
               {
                 label: "Facebook",
