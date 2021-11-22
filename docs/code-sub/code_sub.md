@@ -21,7 +21,7 @@ Each submision consists of up to 5 files (additional imges/data files are allowe
 - Each submition job will be excecuted maximum for **1 min** (_each animation will be played until program ends or 1 minute timer ends_)
 
 :::caution
-Please be aware that excecution of your script will be on `Ubuntu 21.10` machine with `python3.10`
+Please be aware that excecution of your script will be on `Ubuntu 21.10` (_with **gtx 1080 ti** and **AMD Ryzen 5 2600**_) machine with `python3.10`
 :::
 
 ## External dependencies
