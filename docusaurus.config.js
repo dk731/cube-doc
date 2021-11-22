@@ -13,8 +13,8 @@ const config = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "dk731", // Usually your GitHub org/user name.
-  projectName: "3D-Led-Cube", // Usually your repo name.
+  organizationName: "dk731",
+  projectName: "3D-Led-Cube",
 
   presets: [
     [
@@ -24,7 +24,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           routeBasePath: "/",
-          editUrl: "https://github.com/dk731/3D-Led-Cube",
+          editUrl: "https://github.com/dk731/cube-doc/edit/master",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
