@@ -36,6 +36,14 @@ def set_fps(fps_val: float | int) -> None
 IF you want to disable FPS cap, just set it to pass **0** as `fps_val`.
 :::
 
+## Frames Delta Time
+
+Easy buil-in variable `delta_time` for delta time between show() function calls is build in and can be accessed directly.
+
+```python
+CubeDrawer.delta_time # Float data type, measured in seconds
+```
+
 ## Waiting for Virtual Cube
 
 By default when using [cube emulator](https://cube.trycubic.com/) to see output, excecution of code will halt on `show()` function call until at least one virtual cube will be connected, but if program is required to render does

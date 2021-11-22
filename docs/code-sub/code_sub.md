@@ -16,15 +16,17 @@ Each submision consists of up to 5 files (additional imges/data files are allowe
 
 ## Restrictions
 
-Every script will be ececuted in isolated enviroment and access to internet or files outside the excecution folder will be **NOT** allowed, in this case programm will result with an exception and `failed` status.
+- Every script will be ececuted in isolated enviroment and access to internet or files outside the excecution folder will be **NOT** allowed, in this case programm will result with an exception and `failed` status.
+- **Only 2 pending jobs are allowed per each user** (Please wait until you submited jobs will be proceseeded and submit new ones).
+- Each submition job will be excecuted maximum for **1 min** (_each animation will be played until program ends or 1 minute timer ends_)
 
 :::caution
-Please be aware that excecution of your script will be on `Ubuntu 20.04 LTS` machine with `python3.10`
+Please be aware that excecution of your script will be on `Ubuntu 21.10` machine with `python3.10`
 :::
 
 ## External dependencies
 
-Excecution enviroment will allready have most popular libraries such as: `numpy` and others, but if your code depends on something else you must list all dependencies sepated by comma in the comment on first line of the `main.py` file:
+Excecution enviroment will allready have most popular libraries such as: `numpy` and others, but if your code depends on something else you must list all dependencies sepated by comma in the comment on first line of the `main.py` file (_MAX 10 additional modules are allowed, please contact me directly if you need more_):
 
 ```python title="main.py"
 # cv2, opensimplex, colorsys

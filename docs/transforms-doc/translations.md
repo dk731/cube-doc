@@ -33,7 +33,7 @@ def translate(vec: list[float | int] | tuple[float | int]) -> None
 ```python
 from ledcd import CubeDrawer as cd
 drawer = cd.get_obj()
-drawer.draw_immediate = True
+drawer.set_immediate(True)
 
 while True:
     drawer.clear()

@@ -40,7 +40,7 @@ def line(vec1: list[float | int] | tuple[float | int], vec2: list[float | int] |
 from ledcd import CubeDrawer
 
 drawer = CubeDrawer.get_obj()
-drawer.draw_immediate = True
+drawer.set_immediate(True)
 
 while True:
     drawer.clear()

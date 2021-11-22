@@ -40,10 +40,10 @@ Rotation is performed using [Euler angles](https://en.wikipedia.org/wiki/Euler_a
 
 ```python
 from ledcd import CubeDrawer as cd
-from math import radians # Degrees to radians function
+from math import radians  # Degrees to radians function
 
 drawer = cd.get_obj()
-drawer.draw_immediate = True
+drawer.set_immediate(True)
 
 while True:
     drawer.clear()
@@ -77,7 +77,7 @@ while True:
     drawer.rotate(0, radians(45), 0)
 
     drawer.set_color(0.439, 0.839, 1.0)
-    drawer.filled_circle(0, 0, 0, 4, 4)
+    drawer.filled_circle(0, 0, 0, 4, 1.5)
 
     drawer.pop_matrix()
 ```

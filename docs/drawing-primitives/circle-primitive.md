@@ -68,7 +68,7 @@ from random import random
 from time import sleep
 
 drawer = CubeDrawer.get_obj()
-drawer.draw_immediate = True
+drawer.set_immediate(True)
 
 while True:
     drawer.clear()
@@ -95,7 +95,7 @@ while True:
     drawer.filled_ellipse(7.5, 7.5, 6, 3, 3, 2)
 
     drawer.set_color(219, 48, 105)
-    drawer.circle(7.5, 7.5, 6, 5.5, 5.5, 1, 2)
+    drawer.ellipse(7.5, 7.5, 6, 5.5, 5.5, 1, 2)
 ```
 
 <script>

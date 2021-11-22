@@ -46,7 +46,7 @@ def tetr(p1_vec: list[float | int] | tuple[float | int], p2_vec: list[float | in
 from ledcd import CubeDrawer
 
 drawer = CubeDrawer.get_obj()
-drawer.draw_immediate = True
+drawer.set_immediate(True)
 
 while True:
     drawer.clear()

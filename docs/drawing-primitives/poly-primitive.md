@@ -44,7 +44,7 @@ def poly(p1_vec: list[float | int] | tuple[float | int], p2_vec: list[float | in
 from ledcd import CubeDrawer
 
 drawer = CubeDrawer.get_obj()
-drawer.draw_immediate = True
+drawer.set_immediate(True)
 
 while True:
     drawer.clear()
@@ -62,7 +62,7 @@ while True:
     drawer.poly(15, 15, 14, 15, 15, 1, 0, 0, 7)
 
     drawer.set_color(155, 197, 61)
-    drawer.poly(13, 8, 3, 13, 8, 13, 13, 0, 8, 1.5)
+    drawer.poly(13, 8, 3, 13, 8, 13, 13, 0, 8, 2)
 ```
 
 <script>

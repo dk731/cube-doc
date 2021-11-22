@@ -28,7 +28,11 @@ If this code excecuted succesfully this means that display is initialized and is
 
 Now when display communication object was instansiated how do we see the output of our programm if we dont have a real 3D display?
 
-Specialy for this situation was created 1:1 emulator that will act as real hardware but on your pc, all you need to do is open your webbrowser (_Preffered to use Chrome_) and open following [page](https://cube.trycubic.com/). _Page with simillar content should appear (Windows below is not functional example of what you should see in main window...):_
+Specialy for this situation was created 1:1 emulator that will act as real hardware but on your pc, all you need to do is open your webbrowser (_Preffered to use Chrome_) and open [emulator page](https://cube.trycubic.com/). _Page with simillar content should appear (Windows below is not functional example of what you should see in main window...):_
+
+:::caution
+For communication between _python script_ and _web emulator_ - TCP is used. Python script is creating listener server on: **localhost:12035** and emulator tryies to connect to it.
+:::
 
 <iframe src="https://cube.trycubic.com/examples/clean/index.html">
   <p>Your browser does not support iframes.</p>
@@ -48,8 +52,12 @@ Now when out [simulator page](https://cube.trycubic.com/) is oppened and library
 from ledcd import CubeDrawer
 drawer = CubeDrawer.get_obj()
 
-drawer.triangle((0, 15, 0,), (7.5, 0, 15), (15, 15, 0))
+drawer.poly((0, 15, 0,), (7.5, 0, 15), (15, 15, 0))
 drawer.show()
 
 input()
 ```
+
+<iframe src="https://cube.trycubic.com/examples/first/index.html">
+  <p>Your browser does not support iframes.</p>
+</iframe>

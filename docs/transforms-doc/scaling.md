@@ -41,7 +41,7 @@ When using scaling function, never use **0** as scaling factor, this will lead t
 ```python
 from ledcd import CubeDrawer as cd
 drawer = cd.get_obj()
-drawer.draw_immediate = True
+drawer.set_immediate(True)
 
 while True:
     drawer.clear()
@@ -49,23 +49,23 @@ while True:
     drawer.translate(7.5, 7.5, 7.5)
 
     drawer.set_color(1.000, 0.721, 0.819)
-    drawer.filled_sphere(0, 0, 0, 2.5, 2.5, 2.5)
+    drawer.filled_sphere(0, 0, 0, 2.5)
 
     drawer.scale(1.5, 1, 1)
 
     drawer.set_color(205, 246, 159)
-    a.sphere((0, 0, 0), (3.5, 3.5, 3.5), 1)
+    drawer.sphere((0, 0, 0), 3.5, 1)
 
-    drawer.pop_matrix() # Clear translation and scaling
+    drawer.pop_matrix()  # Clear translation and scaling
 
-    a.translate(7, 7.5, 7.5)
+    drawer.translate(7, 7.5, 7.5)
 
     drawer.set_color(0.439, 0.839, 1.0)
-    a.poly(-4, 5, -7, 4, 5, -7, 0, -3, -5, 2)
+    drawer.poly(-4, 5, -7, 4, 5, -7, 0, -3, -5, 2)
 
     drawer.scale(1, -1, -1)
 
-    a.poly(-4, 5, -7, 4, 5, -7, 0, -3, -5, 2)
+    drawer.poly(-4, 5, -7, 4, 5, -7, 0, -3, -5, 2)
 
     drawer.pop_matrix()
 ```

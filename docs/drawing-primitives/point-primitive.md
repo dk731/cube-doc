@@ -36,7 +36,7 @@ from random import random, randint
 from time import sleep
 
 drawer = CubeDrawer.get_obj()
-drawer.draw_immediate = True
+drawer.set_immediate(True)
 
 while True:
     drawer.set_color(random(), random(), random()) # set radnom brush colro

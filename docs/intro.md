@@ -8,7 +8,11 @@ slug: /
 
 Displays and graphics are facinating field of software and hardware, that gives easy and intuitive way to visualize data and art, but what if we add another dimension and have a 3D display?
 
-**TryCubic** project is here to discover this phenomena and give apportunity to anyone who is interested to play with this techonology.
+**TryCubic** project is here to discover this phenomena and give apportunity to anyone who is interested to play with this techonology. Code can be submited through [trycubic.com](https://trycubic.com/), follow us on [facebook](https://www.facebook.com/trycubicnow). More info about code submition can be found [here](/code-sub/code_sub)
+
+:::caution
+Only authorized user can submit their and like other jobs, **NO PRIVATE INFORMATION ABOUT USER IS STORED OR SHARED**. Only scrambled user names from _google_ or _github_ are used for inditification.
+:::
 
 ## About The Project
 
