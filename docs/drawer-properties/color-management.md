@@ -63,7 +63,6 @@ def clear(color_vec)
 
 ```python title="Complete definition"
 def clear(rgb=0.0: float | int) -> None
-def clear(rgb=0: int) -> None
 def clear(r: float | int, g: float | int, b: float | int) -> None
 def clear(color_vec: list[float | int] | tuple[float | int]) -> None
 ```
@@ -78,7 +77,7 @@ def clear(color_vec: list[float | int] | tuple[float | int]) -> None
 | `color_vec` | Structure with Red, Green and Blue channels values | _**tuple or list of numbers with length 3**_ |
 
 :::caution CAUTION
-All function related to color such as: `set_color(...)`, `set_brightness(...)` or `clear(...)` depends on what input data is, in case you pass `float` numbers, function will except values in range **[0.0, 1.0]** and in case input values are `int` then excpected value range is **[0, 255]**.
+All function related to color such as: `set_color(...)`, `set_brightness(...)` or `clear(...)` depends on what input data is, in case of at least on input value is `float` type, function will except values in range **[0.0, 1.0]** and if all values are `int` then excpected value range is **[0, 255]**.
 
 `get_color()` return values is always same type - tuple with 3 values representing r, g, b chanels where each value is in range **[0, 255]**
 :::

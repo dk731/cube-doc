@@ -23,3 +23,7 @@ Additional:
 - [3 Indeced Polygon (Triangle)](poly-primitive)
 
 - [Tetrahedron (Triangle Pyramid)](pyramid-primitive)
+
+:::tip
+Additional examples can be found on project [Github Page](https://github.com/dk731/3D-Led-Cube/) in `examples` directory
+:::
