@@ -6,7 +6,7 @@ sidebar_position: 0
 
 ## Setting Brush Color
 
-For color management library is using one global variable called `brush` that stores **r**, **g**, **b** (each is in range [0, 255]). You cant acces this variable straight (_because of implementation of some core functionality of library_), that's why you should use _getter_ and _setter_ function to set and get current brush value:
+For color management library is using one global variable called `brush` that stores **r**, **g**, **b** (each is in range [0, 255]). You cannot access this variable straight (_because of the implementation of some core functionality of library_). That's why you should use the _getter_ and _setter_ function to set and get the current brush value:
 
 ```python title="Simplified definition"
 def set_color(r, g, b)
@@ -29,18 +29,18 @@ def set_color(color_vec: list[int] | tuple[int]) -> None
 def get_color() -> tuple[int]
 ```
 
-|  Property   |                    Description                     |               Accepted values                |
-| :---------: | :------------------------------------------------: | :------------------------------------------: |
-|     `r`     |               Red channel component                |        **[0, 255]** or **[0.0, 1.0]**        |
-|     `g`     |              Green channel component               |        **[0, 255]** or **[0.0, 1.0]**        |
-|     `b`     |               Blue channel component               |        **[0, 255]** or **[0.0, 1.0]**        |
-|    `rgb`    |          One value for all color channels          |        **[0, 255]** or **[0.0, 1.0]**        |
-|             |                                                    |                                              |
-| `color_vec` | Structure with Red, Green and Blue channels values | _**tuple or list of numbers with length 3**_ |
+|  Property   |                     Description                     |               Accepted values                |
+| :---------: | :-------------------------------------------------: | :------------------------------------------: |
+|     `r`     |                Red channel component                |        **[0, 255]** or **[0.0, 1.0]**        |
+|     `g`     |               Green channel component               |        **[0, 255]** or **[0.0, 1.0]**        |
+|     `b`     |               Blue channel component                |        **[0, 255]** or **[0.0, 1.0]**        |
+|    `rgb`    |          One value for all color channels           |        **[0, 255]** or **[0.0, 1.0]**        |
+|             |                                                     |                                              |
+| `color_vec` | Structure with Red, Green, and Blue channels values | _**tuple or list of numbers with length 3**_ |
 
 ## Setting brightness
 
-One more addition to colors was made to make life easier with real hardware. As cube is build of _SK6812_ leds, with avg power consumption at full brightness per led: **~0.1345 W** and sum conspumtion of cube (_4096 leds_) at **~551 W** what equals **~110 A** at **5V** what is just above PSU's maximum **100 A**. Thats why brush have one more adidtional propery: `brightness` with default value of **0.5**, which can be acces with following setter:
+We made one more addition to colors to make life easier with real hardware. As a cube is built of _SK6812_ LEDs, with avg power consumption at full brightness per led: **~0.1345 W** and sum consumption of cube (_4096 leds_) at **~551 W** what equals **~110 A** at **5V** what is just above PSU's maximum **100 A**. That's why brush has one more additional property: `brightness` with a default value of **0.5**, which can be accessed with the following setter:
 
 ```python
 def set_brightness(v: float) -> None
@@ -53,7 +53,7 @@ def set_brightness(v: int) -> None
 
 ## Clearing Display
 
-Clearing display is very simple and fast, this could be used not only to clear display from any color, but also to fill whole display with specific color.
+The clearing display is a straightforward, fast, reliable way to eliminate any color or fill the whole array with a given color.
 
 ```python title="Simplified definition"
 def clear(r, g, b)
@@ -67,14 +67,14 @@ def clear(r: float | int, g: float | int, b: float | int) -> None
 def clear(color_vec: list[float | int] | tuple[float | int]) -> None
 ```
 
-|  Property   |                    Description                     |               Accepted values                |
-| :---------: | :------------------------------------------------: | :------------------------------------------: |
-|     `r`     |               Red channel component                |        **[0, 255]** or **[0.0, 1.0]**        |
-|     `g`     |              Green channel component               |        **[0, 255]** or **[0.0, 1.0]**        |
-|     `b`     |               Blue channel component               |        **[0, 255]** or **[0.0, 1.0]**        |
-|    `rgb`    |          One value for all color channels          |        **[0, 255]** or **[0.0, 1.0]**        |
-|             |                                                    |                                              |
-| `color_vec` | Structure with Red, Green and Blue channels values | _**tuple or list of numbers with length 3**_ |
+|  Property   |                     Description                     |               Accepted values                |
+| :---------: | :-------------------------------------------------: | :------------------------------------------: |
+|     `r`     |                Red channel component                |        **[0, 255]** or **[0.0, 1.0]**        |
+|     `g`     |               Green channel component               |        **[0, 255]** or **[0.0, 1.0]**        |
+|     `b`     |               Blue channel component                |        **[0, 255]** or **[0.0, 1.0]**        |
+|    `rgb`    |          One value for all color channels           |        **[0, 255]** or **[0.0, 1.0]**        |
+|             |                                                     |                                              |
+| `color_vec` | Structure with Red, Green, and Blue channels values | _**tuple or list of numbers with length 3**_ |
 
 :::caution CAUTION
 All function related to color such as: `set_color(...)`, `set_brightness(...)` or `clear(...)` depends on what input data is, in case of at least on input value is `float` type, function will except values in range **[0.0, 1.0]** and if all values are `int` then excpected value range is **[0, 255]**.
@@ -84,4 +84,4 @@ All function related to color such as: `set_color(...)`, `set_brightness(...)` o
 
 # Examples
 
-You can easily find usage of setters and getters that were mentioned on this page in any drawing [primitive examples](../drawing-primitives/content).
+You can easily find usage of setters and getters mentioned on this page in any drawing [primitive examples](../drawing-primitives/content).

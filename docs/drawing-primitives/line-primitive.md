@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Line
 
-Draws line between 2 points, scaling wont affect line thinkness.
+Draws the line between 2 points; scaling won't affect line thickness.
 
 ## Definition:
 

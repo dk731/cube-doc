@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Point
 
-Draws a filled _sphere with radius 0.5_ at given position, scaling wont affect point size.
+Draws a _filled sphere with radius 0.5_ at a given position; scaling won't affect point size.
 
 ## Definition:
 

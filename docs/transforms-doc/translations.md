@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Translation
 
-Translates origin by given values, most basic transformation action, they are usualy used whenewer you need to offset object or rotate around specific point.
+Translates origin by given values, most basic transformation action, they are usually used whenever you need to offset object or rotate around a specific point.
 
 ## Definition:
 

@@ -23,19 +23,19 @@ def tetr(p1_vec: list[float | int] | tuple[float | int], p2_vec: list[float | in
 |   `x1`   |         X - component of 1st tetrahedron point         |               _**any number**_               |
 |   `y1`   |         Y - component of 1st tetrahedron point         |               _**any number**_               |
 |   `z1`   |         Z - component of 1st tetrahedron point         |               _**any number**_               |
-|   `x2`   |         X - component of 2st tetrahedron point         |               _**any number**_               |
-|   `y2`   |         Y - component of 2st tetrahedron point         |               _**any number**_               |
-|   `z2`   |         Z - component of 2st tetrahedron point         |               _**any number**_               |
-|   `x3`   |         X - component of 3st tetrahedron point         |               _**any number**_               |
-|   `y3`   |         Y - component of 3st tetrahedron point         |               _**any number**_               |
-|   `z3`   |         Z - component of 3st tetrahedron point         |               _**any number**_               |
-|   `x4`   |         X - component of 4st tetrahedron point         |               _**any number**_               |
-|   `y4`   |         Y - component of 4st tetrahedron point         |               _**any number**_               |
-|   `z4`   |         Z - component of 4st tetrahedron point         |               _**any number**_               |
+|   `x2`   |         X - component of 2nd tetrahedron point         |               _**any number**_               |
+|   `y2`   |         Y - component of 2nd tetrahedron point         |               _**any number**_               |
+|   `z2`   |         Z - component of 2nd tetrahedron point         |               _**any number**_               |
+|   `x3`   |         X - component of 3rd tetrahedron point         |               _**any number**_               |
+|   `y3`   |         Y - component of 3rd tetrahedron point         |               _**any number**_               |
+|   `z3`   |         Z - component of 3rd tetrahedron point         |               _**any number**_               |
+|   `x4`   |         X - component of 4th tetrahedron point         |               _**any number**_               |
+|   `y4`   |         Y - component of 4th tetrahedron point         |               _**any number**_               |
+|   `z4`   |         Z - component of 4th tetrahedron point         |               _**any number**_               |
 |          |                                                        |                                              |
 | `p1_vec` | Structure with x, y, z values of 1st tetrahedron point | _**tuple or list of numbers with length 3**_ |
-| `p2_vec` | Structure with x, y, z values of 2st tetrahedron point | _**tuple or list of numbers with length 3**_ |
-| `p3_vec` | Structure with x, y, z values of 3st tetrahedron point | _**tuple or list of numbers with length 3**_ |
+| `p2_vec` | Structure with x, y, z values of 2nd tetrahedron point | _**tuple or list of numbers with length 3**_ |
+| `p3_vec` | Structure with x, y, z values of 3rd tetrahedron point | _**tuple or list of numbers with length 3**_ |
 | `p4_vec` | Structure with x, y, z values of 4th tetrahedron point | _**tuple or list of numbers with length 3**_ |
 
 ## Example:

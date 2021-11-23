@@ -7,7 +7,7 @@ sidebar_position: 3
 Rotate whole space by given [Euler angles](https://en.wikipedia.org/wiki/Euler_angles) vector.
 
 :::caution CAUTION
-Be aware that when you use scaling function, not only primitive shapes are changing but also their coordinates.
+Be aware that when you use the scaling function, not only are primitive shapes changing but also their coordinates.
 :::
 
 ## Definition:
@@ -31,7 +31,7 @@ def rotate(vec: list[float | int] | tuple[float | int]) -> None
 | `p_vec`  | structure with x, y, z values of rotation vector | _**tuple or list of numbers with length 3**_ |
 
 :::caution CAUTION
-Rotation is performed using [Euler angles](https://en.wikipedia.org/wiki/Euler_angles) and are measure in radians!
+Rotation is performed using [Euler angles](https://en.wikipedia.org/wiki/Euler_angles) and is measured in radians!
 :::
 
 ## Example:

@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Sphere
 
-Drawing sphere or ellipsoid. Scaling affects only sphere's shape.
+Draws sphere or ellipsoid; scaling affects only the sphere's shape.
 
 ## Definition:
 

@@ -7,7 +7,7 @@ sidebar_position: 2
 Scales whole space, affects everything except: _**point** - size, any width of primitive(**line width**, **circle line width** or **sphere line width**), and thikness of 2D objecs (**circl**, **ellipsoid**)_.
 
 :::caution CAUTION
-Be aware that when you use scaling function, not only primitive shapes are changing but also their coordinates.
+Be aware that when you use the scaling function, primitive shapes are changing and their coordinates.
 :::
 
 ## Definition:
@@ -31,7 +31,7 @@ def scale(vec: list[float | int] | tuple[float | int]) -> None
 | `p_vec`  | structure with x, y, z values of scale vector | _**tuple or list of numbers with length 3**_ |
 
 :::caution CAUTION
-When using scaling function, never use **0** as scaling factor, this will lead to unexcepted output, insted use **1**!
+When using scaling function, never use **0** as a scaling factor. This will lead to unexcepted output, instead use **1**!
 :::
 
 ## Example:
