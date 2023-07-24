@@ -8,7 +8,7 @@ slug: /
 
 Displays and graphics are a fascinating field of software and hardware that gives an easy and intuitive way to visualize data and art, but what if we add another dimension and have a 3D display?
 
-**TryCubic** project is here to discover this phenomenon and allow anyone interested to play with this technology. Code can be submitted through [trycubic.com](https://trycubic.com/), follow us on [Facebook](https://www.facebook.com/trycubicnow). More info about code submission can be found [here](/code-sub/code_sub)
+**TryCubic** project is here to discover this phenomenon and allow anyone interested to play with this technology. Code can be submitted through [cube.qwe.me](https://cube.qwe.me/), follow us on [Facebook](https://www.facebook.com/trycubicnow). More info about code submission can be found [here](/code-sub/code_sub)
 
 :::caution
 Only authorized users can submit and, like other jobs, **WE ARE NOT STORING OR SHARING ANY PRIVATE INFORMATION**. Only scrambled user names from _google_ or _github_ are used for identification.
@@ -31,7 +31,7 @@ If you are willing to try out and run your code on this device, we developed spe
 <img src="/img/example_code.gif" width="75%"/>
 <br/>
 
-2. Test it using [emulator](https://cube.trycubic.com)
+2. Test it using [emulator](https://sim.cube.qwe.me/)
 
 <img src="/img/example_emulator.gif" width="75%"/>
 <br/>

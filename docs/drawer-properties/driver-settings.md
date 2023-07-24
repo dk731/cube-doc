@@ -46,7 +46,7 @@ CubeDrawer.delta_time # Float data type, measured in seconds
 
 ## Waiting for Virtual Cube
 
-By default, when using [cube emulator](https://cube.trycubic.com/) to see the output, code execution will halt on the `show` function call until at least one virtual cube is connected. Still, if the program is required to render even without visual output, you can use:
+By default, when using [cube emulator](https://sim.cube.qwe.me/) to see the output, code execution will halt on the `show` function call until at least one virtual cube is connected. Still, if the program is required to render even without visual output, you can use:
 
 ```python
 def set_wait_cube(v: bool) -> None

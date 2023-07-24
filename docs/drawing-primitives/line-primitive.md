@@ -99,6 +99,6 @@ while True:
   }
 </script>
 
-<iframe src="https://cube.trycubic.com/examples/line/index.html">
+<iframe src="https://sim.cube.qwe.me/examples/line/index.html">
   <p>Your browser does not support iframes.</p>
 </iframe>

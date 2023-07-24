@@ -90,7 +90,7 @@ const config = {
               },
               {
                 label: "TryCubic",
-                href: "https://trycubic.com/",
+                href: "https://cube.qwe.me/",
               },
             ],
           },

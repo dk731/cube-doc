@@ -28,13 +28,13 @@ If this code has been executed successfully, the display is initialized and read
 
 Now when the display communication object is instantiated, how do we see the output of our program if we don't have an actual 3D display?
 
-Specially for this situation was created 1:1 emulator that will act as real hardware but on your pc, all you need to do is open your web browser (_Preffered to use Chrome_) and open [emulator page](https://cube.trycubic.com/). _Page with similar content should appear (Windows below is not a functional example of what you should see in the main window):_
+Specially for this situation was created 1:1 emulator that will act as real hardware but on your pc, all you need to do is open your web browser (_Preffered to use Chrome_) and open [emulator page](https://sim.cube.qwe.me/). _Page with similar content should appear (Windows below is not a functional example of what you should see in the main window):_
 
 :::caution
 For communication between _python script_ and _web emulator_ - TCP is used. The python script creates a listener server on **localhost:12035** and an emulator trying to connect to it.
 :::
 
-<iframe src="https://cube.trycubic.com/examples/clean/index.html">
+<iframe src="https://sim.cube.qwe.me/examples/clean/index.html">
   <p>Your browser does not support iframes.</p>
 </iframe>
 
@@ -46,7 +46,7 @@ Use your scroll to zoom-in and zoom-out
 
 ## First Programm
 
-Now when out [simulator page](https://cube.trycubic.com/) is opened, and the library is installed, let's try to run out _Hello World!_ alternative of the graphical world (_Hello Triangle!_):
+Now when out [simulator page](https://sim.cube.qwe.me/) is opened, and the library is installed, let's try to run out _Hello World!_ alternative of the graphical world (_Hello Triangle!_):
 
 ```python
 from ledcd import CubeDrawer
@@ -58,6 +58,6 @@ drawer.show()
 input()
 ```
 
-<iframe src="https://cube.trycubic.com/examples/first/index.html">
+<iframe src="https://sim.cube.qwe.me/examples/first/index.html">
   <p>Your browser does not support iframes.</p>
 </iframe>
